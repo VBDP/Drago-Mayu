@@ -54,7 +54,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.925.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -88,7 +88,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.925.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -147,12 +147,15 @@ MonoBehaviour:
         globalParam: 
         holdButton: 0
         invertRestLogic: 0
+        expandIntoTransition: 1
     - rid: 3718435184143499298
       type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 0
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         blendShape: Hide Ear Glowstick
         blendShapeValue: 100
         renderer: {fileID: 3017012161532674083}
@@ -171,7 +174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.925.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -230,12 +233,15 @@ MonoBehaviour:
         globalParam: 
         holdButton: 0
         invertRestLogic: 0
+        expandIntoTransition: 1
     - rid: 3718435184143499298
       type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 0
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         blendShape: Hide Collar Glowstick
         blendShapeValue: 100
         renderer: {fileID: 3017012161532674083}
@@ -254,7 +260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.925.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -313,12 +319,15 @@ MonoBehaviour:
         globalParam: 
         holdButton: 0
         invertRestLogic: 0
+        expandIntoTransition: 1
     - rid: 3718435184143499298
       type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 0
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         blendShape: Hide Right Arm Glowsticks
         blendShapeValue: 100
         renderer: {fileID: 3017012161532674083}
@@ -337,7 +346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.925.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -396,12 +405,15 @@ MonoBehaviour:
         globalParam: 
         holdButton: 0
         invertRestLogic: 0
+        expandIntoTransition: 1
     - rid: 3718435184143499298
       type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 0
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         blendShape: Hide Left Arm Glowsticks
         blendShapeValue: 100
         renderer: {fileID: 3017012161532674083}
@@ -420,7 +432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.925.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -479,12 +491,15 @@ MonoBehaviour:
         globalParam: 
         holdButton: 0
         invertRestLogic: 0
+        expandIntoTransition: 1
     - rid: 3718435184143499298
       type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 0
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         blendShape: Hide Spine Glowsticks
         blendShapeValue: 100
         renderer: {fileID: 3017012161532674083}
@@ -503,7 +518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.925.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -562,12 +577,15 @@ MonoBehaviour:
         globalParam: 
         holdButton: 0
         invertRestLogic: 0
+        expandIntoTransition: 1
     - rid: 3718435184143499298
       type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 0
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         blendShape: Hide Upperleg Glowstick
         blendShapeValue: 100
         renderer: {fileID: 3017012161532674083}
@@ -586,7 +604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.925.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -645,12 +663,15 @@ MonoBehaviour:
         globalParam: 
         holdButton: 0
         invertRestLogic: 0
+        expandIntoTransition: 1
     - rid: 3718435184143499298
       type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 0
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         blendShape: Hide Lowerleg Glowstick
         blendShapeValue: 100
         renderer: {fileID: 3017012161532674083}
@@ -669,7 +690,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.925.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -728,12 +749,15 @@ MonoBehaviour:
         globalParam: 
         holdButton: 0
         invertRestLogic: 0
+        expandIntoTransition: 1
     - rid: 3718435184143499298
       type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 0
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         blendShape: Hide Tail Glowsticks
         blendShapeValue: 100
         renderer: {fileID: 3017012161532674083}
@@ -787,7 +811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.925.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -845,6 +869,7 @@ MonoBehaviour:
         globalParam: 
         holdButton: 0
         invertRestLogic: 0
+        expandIntoTransition: 1
 --- !u!114 &5421498816969048563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -859,7 +884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.925.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -917,6 +942,7 @@ MonoBehaviour:
         globalParam: 
         holdButton: 0
         invertRestLogic: 0
+        expandIntoTransition: 1
 --- !u!114 &1043735607214669635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -931,7 +957,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.925.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -989,6 +1015,7 @@ MonoBehaviour:
         globalParam: 
         holdButton: 0
         invertRestLogic: 0
+        expandIntoTransition: 1
 --- !u!114 &1740947805641189281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1003,7 +1030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.925.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1061,6 +1088,7 @@ MonoBehaviour:
         globalParam: 
         holdButton: 0
         invertRestLogic: 0
+        expandIntoTransition: 1
 --- !u!1 &7820450896407396466
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,7 +1259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.925.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1243,8 +1271,7 @@ MonoBehaviour:
     - rid: 3718435135704006675
       type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
       data:
-        version: 6
-        linkMode: 4
+        version: 7
         propBone: {fileID: 9149223339232918119}
         linkTo:
         - useBone: 1
@@ -1252,10 +1279,17 @@ MonoBehaviour:
           useObj: 0
           obj: {fileID: 0}
           offset: 
-        keepBoneOffsets2: 0
         removeBoneSuffix: 
-        skinRewriteScalingFactor: 0
+        removeParentConstraints: 1
+        forceMergedName: 
+        forceOneWorldScale: 0
+        recursive: 1
+        alignPosition: 1
+        alignRotation: 1
+        alignScale: 1
+        autoScaleFactor: 1
         scalingFactorPowersOf10Only: 1
+        skinRewriteScalingFactor: 1
         useOptimizedUpload: 0
         useBoneMerging: 0
         keepBoneOffsets: 0
@@ -1263,6 +1297,8 @@ MonoBehaviour:
         boneOnAvatar: 0
         bonePathOnAvatar: 
         fallbackBones: 
+        keepBoneOffsets2: 0
+        linkMode: 4
 --- !u!114 &9119219777576763781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1277,7 +1313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.925.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1310,7 +1346,7 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 53a65e5687c8e974a9e3158d7e09bf2e|Assets/Xaeky/Glowsticks/Icons/GS-Enable.png
+          id: 53a65e5687c8e974a9e3158d7e09bf2e|Assets/Glowsticks/Icons/GS-Enable.png
           objRef: {fileID: 2800000, guid: 53a65e5687c8e974a9e3158d7e09bf2e, type: 3}
         enableDriveGlobalParam: 0
         driveGlobalParam: 
@@ -1336,12 +1372,15 @@ MonoBehaviour:
         globalParam: 
         holdButton: 0
         invertRestLogic: 0
+        expandIntoTransition: 1
     - rid: 3718435135704006677
       type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
       data:
         version: 1
         desktopActive: 0
         androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
         obj: {fileID: 7142468222215441485}
         mode: 0
 --- !u!114 &3879772089767333757
@@ -1358,7 +1397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.925.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -1376,7 +1415,7 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: f6aef4ab24660624692416d73d6d3601|Assets/Xaeky/Glowsticks/Icons/GS-MainMenu.png
+          id: f6aef4ab24660624692416d73d6d3601|Assets/Glowsticks/Icons/GS-MainMenu.png
           objRef: {fileID: 2800000, guid: f6aef4ab24660624692416d73d6d3601, type: 3}
 --- !u!1 &9149223339232918119 stripped
 GameObject:

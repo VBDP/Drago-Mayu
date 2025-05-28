@@ -120,7 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1084.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -132,8 +132,7 @@ MonoBehaviour:
     - rid: 3718435135704006675
       type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
       data:
-        version: 6
-        linkMode: 4
+        version: 7
         propBone: {fileID: 8390841006270715584}
         linkTo:
         - useBone: 1
@@ -141,13 +140,17 @@ MonoBehaviour:
           useObj: 0
           obj: {fileID: 0}
           offset: 
-        keepBoneOffsets2: 0
         removeBoneSuffix: 
-        skinRewriteScalingFactor: 0
-        scalingFactorPowersOf10Only: 1
         removeParentConstraints: 1
         forceMergedName: 
         forceOneWorldScale: 0
+        recursive: 1
+        alignPosition: 1
+        alignRotation: 1
+        alignScale: 1
+        autoScaleFactor: 1
+        scalingFactorPowersOf10Only: 1
+        skinRewriteScalingFactor: 1
         useOptimizedUpload: 0
         useBoneMerging: 0
         keepBoneOffsets: 0
@@ -155,6 +158,8 @@ MonoBehaviour:
         boneOnAvatar: 0
         bonePathOnAvatar: 
         fallbackBones: 
+        keepBoneOffsets2: 0
+        linkMode: 4
 --- !u!114 &7051132691170492043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,7 +174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1084.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -187,7 +192,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: f6d0c41f796ed36408102c1da520eaff|Assets/Xaeky/Props/Glowsticks/Animations/FX
+            id: f6d0c41f796ed36408102c1da520eaff|Assets/Glowsticks/Animations/FX
               - Glowsticks.controller
             objRef: {fileID: 9100000, guid: f6d0c41f796ed36408102c1da520eaff, type: 2}
           type: 5
@@ -196,8 +201,8 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: d77f166812187c6459127726ac6aa846|Assets/Xaeky/Props/Glowsticks/Animations/M
-              - Glowsticks - Root.asset
+            id: d77f166812187c6459127726ac6aa846|Assets/Glowsticks/Animations/M -
+              Glowsticks - Root.asset
             objRef: {fileID: 11400000, guid: d77f166812187c6459127726ac6aa846, type: 2}
           prefix: Clothes/Glowsticks
         prms:
@@ -205,8 +210,8 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: b6cc74077df42df4d8ac003ffaeb6149|Assets/Xaeky/Props/Glowsticks/Animations/P
-              - Glowsticks.asset
+            id: b6cc74077df42df4d8ac003ffaeb6149|Assets/Glowsticks/Animations/P -
+              Glowsticks.asset
             objRef: {fileID: 11400000, guid: b6cc74077df42df4d8ac003ffaeb6149, type: 2}
         smoothedPrms: []
         globalParams: []
@@ -218,6 +223,7 @@ MonoBehaviour:
         rewriteBindings: []
         allowMissingAssets: 0
         injectSpsDepthParam: 
+        injectSpsVelocityParam: 
         controller:
           version: 1
           fileID: 0
@@ -254,7 +260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1084.0
+  vrcfuryVersion: 1.1228.0
   somethingIsBroken: 0
   config:
     features: []
@@ -272,7 +278,7 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: f6aef4ab24660624692416d73d6d3601|Assets/Xaeky/Props/Glowsticks/Icons/GS-MainMenu.png
+          id: f6aef4ab24660624692416d73d6d3601|Assets/Glowsticks/Icons/GS-MainMenu.png
           objRef: {fileID: 2800000, guid: f6aef4ab24660624692416d73d6d3601, type: 3}
 --- !u!1 &8390841006270715584 stripped
 GameObject:
