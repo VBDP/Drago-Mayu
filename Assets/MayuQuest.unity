@@ -302,6 +302,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4200810879530129700, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: fallbackStatus
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5286994834754841788, guid: 64c1e995db896db4e954090799b89717,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -325,7 +330,7 @@ PrefabInstance:
     - target: {fileID: 5998789723980090559, guid: 64c1e995db896db4e954090799b89717,
         type: 3}
       propertyPath: m_Name
-      value: Mayu VRC Quest Avatar Prefab
+      value: Mayu Drago Quest
       objectReference: {fileID: 0}
     - target: {fileID: 6373767562415085061, guid: 64c1e995db896db4e954090799b89717,
         type: 3}
@@ -377,11 +382,279 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.size
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[17].hash
+      value: -137349741
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[17].name
+      value: Gestures Eye Left Stretch 1D
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[18].hash
+      value: -1285665865
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[18].name
+      value: Gestures Eye Right Stretch 1D
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[19].hash
+      value: 1331663665
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[19].name
+      value: Gesture Pupils
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[20].hash
+      value: -765768081
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[20].name
+      value: Gesture Ears
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[21].hash
+      value: 1882128568
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[21].name
+      value: Gesture Eyes Purr 1D
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[22].hash
+      value: -2084612124
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[22].name
+      value: Gesture Eyes Purr
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[23].hash
+      value: -1766493185
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[23].name
+      value: Gesture Eyes Stretch
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[24].hash
+      value: -1796066051
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[24].name
+      value: Gestures Mouth
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[25].hash
+      value: 472899143
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[25].name
+      value: Meow
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[26].hash
+      value: -121786614
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[26].name
+      value: Wail
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[27].hash
+      value: -915533828
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[27].name
+      value: Hostile
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[28].hash
+      value: 1577290519
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[28].name
+      value: Chirp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[29].hash
+      value: 1931941102
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[29].name
+      value: Trill
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[30].hash
+      value: 1734419826
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[30].name
+      value: Disabled
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[31].hash
+      value: 2115780495
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[31].name
+      value: Gestures Mouth Exit
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[32].hash
+      value: -1096903075
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[32].name
+      value: Yap
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[33].hash
+      value: 1376067634
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[33].name
+      value: Gestures Mouth Tail Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[34].hash
+      value: 2129071738
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[34].name
+      value: Gestures Mouth Ears Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[35].hash
+      value: -229955405
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[35].name
+      value: Cheerful
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[36].hash
+      value: 928921596
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[36].name
+      value: Tail
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[37].hash
+      value: -1729705561
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[37].name
+      value: Cheese Enter
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[38].hash
+      value: 387823044
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[38].name
+      value: Cheese Slap
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[39].hash
+      value: -586994122
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[39].name
+      value: Cheese Inactive
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[40].hash
+      value: -786839708
+      objectReference: {fileID: 0}
+    - target: {fileID: 9130044827612886153, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      propertyPath: animationHashSet.Array.data[40].name
+      value: Cheese Hold Inactive
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5998789723980090559, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1004161098}
   m_SourcePrefab: {fileID: 100100000, guid: 64c1e995db896db4e954090799b89717, type: 3}
+--- !u!1 &1004161097 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5998789723980090559, guid: 64c1e995db896db4e954090799b89717,
+    type: 3}
+  m_PrefabInstance: {fileID: 1004161096}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1004161098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004161097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45da21a324e147228aaee066e399bff0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platformOverrides: []
 --- !u!1 &1616586506
 GameObject:
   m_ObjectHideFlags: 1

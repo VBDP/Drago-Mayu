@@ -409,7 +409,7 @@ PrefabInstance:
     - target: {fileID: 4968323207378427587, guid: cf77adb68e62e1d4abf3da10295d6fa3,
         type: 3}
       propertyPath: m_Name
-      value: Mayu VRC PC Avatar Prefab
+      value: Mayu Drago PC
       objectReference: {fileID: 0}
     - target: {fileID: 5744577783526229113, guid: cf77adb68e62e1d4abf3da10295d6fa3,
         type: 3}

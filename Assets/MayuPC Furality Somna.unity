@@ -123,6 +123,80 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &348085750
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1196789982}
+    m_Modifications:
+    - target: {fileID: 6260644508143339597, guid: 20aa75c979ea65d42985fcf79e949997,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260644508143339597, guid: 20aa75c979ea65d42985fcf79e949997,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260644508143339597, guid: 20aa75c979ea65d42985fcf79e949997,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260644508143339597, guid: 20aa75c979ea65d42985fcf79e949997,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260644508143339597, guid: 20aa75c979ea65d42985fcf79e949997,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260644508143339597, guid: 20aa75c979ea65d42985fcf79e949997,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260644508143339597, guid: 20aa75c979ea65d42985fcf79e949997,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260644508143339597, guid: 20aa75c979ea65d42985fcf79e949997,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260644508143339597, guid: 20aa75c979ea65d42985fcf79e949997,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260644508143339597, guid: 20aa75c979ea65d42985fcf79e949997,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7804257493892020082, guid: 20aa75c979ea65d42985fcf79e949997,
+        type: 3}
+      propertyPath: m_Name
+      value: Mayu Stellar Set
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20aa75c979ea65d42985fcf79e949997, type: 3}
+--- !u!4 &348085751 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6260644508143339597, guid: 20aa75c979ea65d42985fcf79e949997,
+    type: 3}
+  m_PrefabInstance: {fileID: 348085750}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &613784622
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,6 +470,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 204553760282710456, guid: cf77adb68e62e1d4abf3da10295d6fa3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 888909527011209456, guid: cf77adb68e62e1d4abf3da10295d6fa3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637576292499729571, guid: cf77adb68e62e1d4abf3da10295d6fa3,
+        type: 3}
+      propertyPath: blueprintId
+      value: avtr_356121f3-1b9a-4784-9e08-5ffe2f09943e
+      objectReference: {fileID: 0}
+    - target: {fileID: 1637576292499729571, guid: cf77adb68e62e1d4abf3da10295d6fa3,
+        type: 3}
+      propertyPath: fallbackStatus
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2606955265396883629, guid: cf77adb68e62e1d4abf3da10295d6fa3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4365387100692920869, guid: cf77adb68e62e1d4abf3da10295d6fa3,
         type: 3}
       propertyPath: m_LocalRotation.y
@@ -409,7 +508,7 @@ PrefabInstance:
     - target: {fileID: 4968323207378427587, guid: cf77adb68e62e1d4abf3da10295d6fa3,
         type: 3}
       propertyPath: m_Name
-      value: Mayu VRC PC Avatar Prefab
+      value: Mayu Drago PC Furality Somna
       objectReference: {fileID: 0}
     - target: {fileID: 5744577783526229113, guid: cf77adb68e62e1d4abf3da10295d6fa3,
         type: 3}
@@ -480,6 +579,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[43]
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373207630006409268, guid: cf77adb68e62e1d4abf3da10295d6fa3,
+        type: 3}
+      propertyPath: unityVersion
+      value: 2022.3.22f1
       objectReference: {fileID: 0}
     - target: {fileID: 7373207630006409268, guid: cf77adb68e62e1d4abf3da10295d6fa3,
         type: 3}
@@ -728,7 +832,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5744577783526229113, guid: cf77adb68e62e1d4abf3da10295d6fa3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 348085751}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4968323207378427587, guid: cf77adb68e62e1d4abf3da10295d6fa3,
         type: 3}
@@ -754,6 +862,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   platformOverrides: []
+--- !u!4 &1196789982 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5744577783526229113, guid: cf77adb68e62e1d4abf3da10295d6fa3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1196789979}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1558062585
 GameObject:
   m_ObjectHideFlags: 0
