@@ -471,6 +471,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: ff20c844f4fc963498e1c5de0e3d437a, type: 2}
+    - target: {fileID: 6815020530138431168, guid: cf77adb68e62e1d4abf3da10295d6fa3,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[41]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815020530138431168, guid: cf77adb68e62e1d4abf3da10295d6fa3,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[43]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7373207630006409268, guid: cf77adb68e62e1d4abf3da10295d6fa3,
         type: 3}
       propertyPath: animationHashSet.Array.size
