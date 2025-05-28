@@ -8,6 +8,42 @@
     },
     "com.vrchat.avatars": {
       "version": "3.8.1"
+    },
+    "lyuma.av3emulator": {
+      "version": "3.4.8"
+    },
+    "vrchat.blackstartx.gesture-manager": {
+      "version": "3.9.4"
+    },
+    "dev.vrlabs.av3manager": {
+      "version": "2.0.35"
+    },
+    "com.vrcfury.vrcfury": {
+      "version": "1.1228.0"
+    },
+    "gogoloco": {
+      "version": "1.8.6"
+    },
+    "com.poiyomi.toon": {
+      "version": "9.2.41"
+    },
+    "adjerry91.vrcft.templates": {
+      "version": "6.7.2"
+    },
+    "dev.jetees.memoryoptimizer": {
+      "version": "0.1.18"
+    },
+    "nadena.dev.modular-avatar": {
+      "version": "1.12.5"
+    },
+    "jp.lilxyzw.liltoon": {
+      "version": "1.10.3"
+    },
+    "com.github.kurotu.vrc-quest-tools": {
+      "version": "2.10.0-beta.4"
+    },
+    "com.furality.somnashader": {
+      "version": "1.0.6"
     }
   },
   "locked": {
@@ -24,6 +60,79 @@
       "dependencies": {
         "com.vrchat.base": "3.8.1"
       }
+    },
+    "lyuma.av3emulator": {
+      "version": "3.4.8",
+      "dependencies": {
+        "com.vrchat.avatars": "^3.1.0"
+      }
+    },
+    "vrchat.blackstartx.gesture-manager": {
+      "version": "3.9.4",
+      "dependencies": {
+        "com.vrchat.avatars": ">=3.5.2 < 3.9.X"
+      }
+    },
+    "dev.vrlabs.av3manager": {
+      "version": "2.0.35",
+      "dependencies": {
+        "com.vrchat.avatars": "3.2 - 3.8"
+      }
+    },
+    "com.vrcfury.vrcfury": {
+      "version": "1.1228.0",
+      "dependencies": {}
+    },
+    "gogoloco": {
+      "version": "1.8.6",
+      "dependencies": {
+        "com.vrchat.avatars": ">=3.2.2"
+      }
+    },
+    "com.poiyomi.toon": {
+      "version": "9.2.41",
+      "dependencies": {}
+    },
+    "adjerry91.vrcft.templates": {
+      "version": "6.7.2",
+      "dependencies": {}
+    },
+    "dev.jetees.memoryoptimizer": {
+      "version": "0.1.18",
+      "dependencies": {
+        "com.vrchat.avatars": "^3.5.1"
+      }
+    },
+    "nadena.dev.modular-avatar": {
+      "version": "1.12.5",
+      "dependencies": {
+        "com.vrchat.avatars": ">=3.7.4",
+        "nadena.dev.ndmf": ">=1.7.7 <2.0.0-a"
+      }
+    },
+    "nadena.dev.ndmf": {
+      "version": "1.7.10",
+      "dependencies": {}
+    },
+    "jp.lilxyzw.liltoon": {
+      "version": "1.10.3",
+      "dependencies": {}
+    },
+    "com.github.kurotu.vrc-quest-tools": {
+      "version": "2.10.0-beta.4",
+      "dependencies": {
+        "com.vrchat.avatars": "^3.3.0"
+      }
+    },
+    "com.furality.somnashader": {
+      "version": "1.0.6",
+      "dependencies": {
+        "com.llealloo.audiolink": "2.x.x"
+      }
+    },
+    "com.llealloo.audiolink": {
+      "version": "2.1.0",
+      "dependencies": {}
     }
   }
 }
