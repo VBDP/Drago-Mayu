@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Toes Puppet Menu
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 280aa14e1a3168f428c78efd674a4bcf, type: 2}
+  controls:
+  - name: Right Foot
+    icon: {fileID: 2800000, guid: ad7089e70c990f64e8a2dcb00172e3f6, type: 3}
+    type: 201
+    parameter:
+      name: Mayu/Feet/RightPuppet
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Mayu/FloatX
+    - name: Mayu/FloatY
+    labels:
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+  - name: Both Feet
+    icon: {fileID: 2800000, guid: c7a334f3d84b4fc46a5b9229e58934e8, type: 3}
+    type: 201
+    parameter:
+      name: Mayu/Feet/BothPuppet
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Mayu/FloatX
+    - name: Mayu/FloatY
+    labels:
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+  - name: Left Foot
+    icon: {fileID: 2800000, guid: 71a10833dfed0b44b823cacf5ed9902a, type: 3}
+    type: 201
+    parameter:
+      name: Mayu/Feet/LeftPuppet
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Mayu/FloatX
+    - name: Mayu/FloatY
+    labels:
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}

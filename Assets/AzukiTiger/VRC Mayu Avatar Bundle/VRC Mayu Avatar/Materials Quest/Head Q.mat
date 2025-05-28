@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Head Q
+  m_Shader: {fileID: 4800000, guid: e765db0afa7ecfc44ade2e4e2491f65a, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - USE_HUE_SHIFT
+  - USE_MATCAP
+  - USE_SPECULAR
+  m_InvalidKeywords:
+  - _DETAIL
+  - _EMISSION
+  - _METALLICGLOSSMAP
+  - _NORMALMAP
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    OptimizedShaderFolder: 8f5a9f41
+    OriginalShader: .poiyomi/Poiyomi 8.0/Poiyomi Pro
+    _LockTooltipAnimated: 1
+    _MainHueShiftAnimated: 1
+    _MochieMetallicMaps_texPack_a_channel: 4
+    _MochieMetallicMaps_texPack_a_fallback: 0
+    _MochieMetallicMaps_texPack_a_guid: 4dd2bc4ce15822648a24af44b18c9bdf
+    _MochieMetallicMaps_texPack_a_inverted: False
+    _MochieMetallicMaps_texPack_b_channel: 4
+    _MochieMetallicMaps_texPack_b_fallback: 0
+    _MochieMetallicMaps_texPack_b_guid: 4dd2bc4ce15822648a24af44b18c9bdf
+    _MochieMetallicMaps_texPack_b_inverted: False
+    _MochieMetallicMaps_texPack_g_channel: 4
+    _MochieMetallicMaps_texPack_g_fallback: 0
+    _MochieMetallicMaps_texPack_g_guid: 4dd2bc4ce15822648a24af44b18c9bdf
+    _MochieMetallicMaps_texPack_g_inverted: False
+    _MochieMetallicMaps_texPack_r_channel: 4
+    _MochieMetallicMaps_texPack_r_fallback: 0
+    _MochieMetallicMaps_texPack_r_guid: 4dd2bc4ce15822648a24af44b18c9bdf
+    _MochieMetallicMaps_texPack_r_inverted: False
+    _RimHueShiftAnimated: 1
+    _SaturationAnimated: 1
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 42a249329b104574fb35b617bcacaa8b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 2800000, guid: 48d23b45affb1b04bb7efa1817cd076e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HueShiftMask:
+        m_Texture: {fileID: 2800000, guid: 23d52b02232e1ff41b1c52344cb2b551, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 65f9c1bfccc90564288f0f41318ce1d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Matcap:
+        m_Texture: {fileID: 2800000, guid: 7f22da2e6ac5bc449b4d327ee43e0cd1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatcapMask:
+        m_Texture: {fileID: 2800000, guid: 48d23b45affb1b04bb7efa1817cd076e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: 636cf1b5dfca6f54b94ca3d2ff8216c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _Culling: 2
+    - _DetailHueShift: 0
+    - _DetailMaskChannel: 3
+    - _DetailMode: 0
+    - _DetailNormalMapScale: 1
+    - _DetailUV: 0
+    - _EmissionHueShift: 0
+    - _EmissionStrength: 0.2
+    - _EmissionUV: 0
+    - _GlossMapChannel: 1
+    - _GlossStrength: 1
+    - _HueShift: 0
+    - _HueShiftMaskChannel: 1
+    - _LimitBrightness: 1
+    - _MatcapMaskChannel: 0
+    - _MatcapStrength: 0.6
+    - _MatcapType: 0
+    - _MetallicMapChannel: 2
+    - _MetallicStrength: 0
+    - _MinBrightness: 0.01
+    - _OcclusionMapChannel: 0
+    - _OcclusionStrength: 1
+    - _Reflectance: 1
+    - _RimAlbedoTint: 0
+    - _RimEnvironmental: 0
+    - _RimIntensity: 0.5
+    - _RimRange: 0.3
+    - _RimSharpness: 0.1
+    - _ShadowAlbedo: 0.2
+    - _ShadowBoost: 0
+    - _SpecularSharpness: 0.1
+    - _VertexColor: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

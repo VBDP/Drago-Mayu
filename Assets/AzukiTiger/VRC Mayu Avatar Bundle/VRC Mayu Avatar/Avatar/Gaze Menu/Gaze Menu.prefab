@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6251334998806802760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 658026909849039930}
+  - component: {fileID: 2958029047640994087}
+  - component: {fileID: 7927195183829869977}
+  m_Layer: 0
+  m_Name: Gaze Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &658026909849039930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6251334998806802760}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2958029047640994087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6251334998806802760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1078.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 6798555708894740492
+  references:
+    version: 2
+    RefIds:
+    - rid: 6798555708894740492
+      type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 4
+        controllers:
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: c6f57ccc2c14f5c4ca6ac10ecdda7e42|Assets/AzukiTiger/VRC Mayu Avatar/Avatar/Gaze
+              Menu/Gaze Controller.controller
+            objRef: {fileID: 9100000, guid: c6f57ccc2c14f5c4ca6ac10ecdda7e42, type: 2}
+          type: 5
+        menus:
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: bab24e00dc45d4a4db7a38c5c29c9ac8|Assets/AzukiTiger/VRC Mayu Avatar/Avatar/Gaze
+              Menu/Gaze Menu.asset
+            objRef: {fileID: 11400000, guid: bab24e00dc45d4a4db7a38c5c29c9ac8, type: 2}
+          prefix: Appearance/Eyes/Gaze
+        prms:
+        - parameters:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 7a5b93c7266e76f46a1f994c78d9110d|Assets/AzukiTiger/VRC Mayu Avatar/Avatar/Gaze
+              Menu/Gaze Parameters.asset
+            objRef: {fileID: 11400000, guid: 7a5b93c7266e76f46a1f994c78d9110d, type: 2}
+        smoothedPrms: []
+        globalParams:
+        - '*'
+        allNonsyncedAreGlobal: 0
+        ignoreSaved: 0
+        toggleParam: 
+        rootObjOverride: {fileID: 0}
+        rootBindingsApplyToAvatar: 0
+        rewriteBindings: []
+        allowMissingAssets: 0
+        injectSpsDepthParam: 
+        controller:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        menu:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        parameters:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        submenu: 
+        removePrefixes: []
+        addPrefix: 
+        useSecurityForToggle: 0
+--- !u!114 &7927195183829869977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6251334998806802760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1078.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5935413946604585469
+  references:
+    version: 2
+    RefIds:
+    - rid: 5935413946604585469
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Appearance/Eyes/Gaze
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 201a08e2c7d0e134eaac95736fa75231|Assets/AzukiTiger/VRC Mayu Avatar/Icons/Gaze.png
+          objRef: {fileID: 2800000, guid: 201a08e2c7d0e134eaac95736fa75231, type: 3}

@@ -1,0 +1,20 @@
+VRC MAYU HOODIE INSTALLATION
+
+	Drag and drop the VRC Mayu Hoodie Prefab into the VRC Mayu Avatar game object in your scene. Setup the colliders for the Hoodie physbones to ones already included with the avatar:
+		- Physbones / Hood Physbone @ VRC Phys Bone / Collision / Colliders / Element 0 -> Head Collider
+		- Physbones / String_L Physbone @ VRC Phys Bone / Collision / Colliders / Element 0 -> Floor Collider
+		- Physbones / String_R Physbone @ VRC Phys Bone / Collision / Colliders / Element 0 -> Floor Collider
+		- Physbones / Bell Physbone - VRC Phys Bone / Collision / Colliders -> Element 0 -> Chest Collider
+
+VRC MAYU COLLAR INSTALLATION
+
+	Drag and drop the VRC Mayu Collar Prefab into the VRC Mayu Avatar game object  in your scene. Setup the colliders for the Collar physbones to ones already included with the avatar:
+		- Physbones / Collar Physbone @ Bell Physbone - VRC Phys Bone / Collision / Colliders -> Element 0 -> Chest Collider
+
+VRC MAYU PANTS INSTALLATION
+
+	Drag and drop the VRC Mayu Pants Prefab into the VRC Mayu Avatar game object in your scene.
+
+VRC MAYU WARMERS INSTALLATION
+
+	Drag and drop the VRC Mayu Warmers Prefab into the VRC Mayu Avatar game object  in your scene.

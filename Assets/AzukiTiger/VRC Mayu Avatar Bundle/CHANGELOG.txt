@@ -1,0 +1,808 @@
+# Version 2.0.1
+
+## Notes
+Set Normal Map intensity of Head & Body materials to zero to avoid shading seam on neck.
+
+## Features
+- Added new toggle to disable blinking (for pictures) under Gesture Lock sub-menu.
+
+## Improvements
+- Made the muzzle normal map crease smoother.
+
+## Fixes
+- Changed model import settings in Unity to Calculate Mikktspace for Tangents (fixes issues with normal maps).
+- Adjusted Normal Map intensity for Head & Body material to zero.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 2.0.0
+
+## Notes
+Remake your Head, Body & Lenses materials from the original!
+
+## Features
+- New tummy constraint physbone (re-uses butt physbone and can be individually disabled)! Torso weight paint has been adjusted and improved to accommodate the tummy vertex group.
+- A mesh without the tummy vertex group is also included to support existing clothing assets.
+- New teeth that match feline molars with improved maw custom normals.
+- New eye highlight customization, highlights now use two emission slots allowing to customize the color individually.
+- New unique expression with Left Gun & Right Thumbs Up!
+- New unique expression with Left Gun & Right Victory!
+- New unique expression with Left RockNRoll & Right Victory!
+- New unique expression with Left RockNRoll & Right Thumbs up!
+- New unique expression with Left Finger Point & Right Gun!
+- New speak sound with Double Thumbs Up!
+- Hypnosis toggle is now a slider to control the color, it will color shift at 100%.
+- Retract claws toggle is now a slider.
+- Added blendshapes: `Brow Hide`, `Head Fluff Hide`, `Cheek Fluff Hide` & `Ear Fluff Hide`
+- Re-added `Howawa` option to gaze menu.
+- Female breasts now use a normal map for both PC & Quest.
+- Ears now react to lowering or raising the brows for face tracking.
+
+## Improvements
+- Improved Materials & AO textures.
+- Simplified face tracking blendtrees for eyes & pupils, gaze now blends with eye squint and eye wide.
+- Updated `Cheek Fluff Long` blendshape to be wider.
+- Used Renamed Animated properties for Head material, Body material & Lenses material to avoid conflicts with animated properties added by you or other assets.
+- Dramatically reduced blend tree sizes for expressions.
+- UV eye highlights for lenses are no longer overlapped.
+- Added more matcap effects for Head & Body materials.
+- Added more polygons around eyebrows to hide jagged edges.
+- Moved inner iris backface UV to overlap the outer iris backface UV.
+- Adjusted VRChat foot colliders to match global colliders.
+
+## Changes
+- Gaze influence is capped at 50%.
+- Added bones to dome of iris and highlights to adjust scaling (bones are better when mixing blendshape transforms).
+- Left Thumbs Up gesture no longer changes highlight to a star.
+- Double Gun gesture changed to use `Ha!!!` instead of `Squint` eye expression.
+- Double Open Hand gesture no longer hides highlight.
+- Avatar polygon count increased by 2.5K for new changes.
+- Adjusted inner side of the female breasts blendshape.
+- Removed sharpness from ear fluff.
+- Removed legacy breast blendshape.
+
+## Fixes
+- Fixed Face Tracking Sounds FX controller.
+- Fixed Face & Butt physbones rubber-banding when colliding (caused by cone shape physbone colliders).
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.51.7
+
+## Improvements
+- Increased ear rotation.
+
+## Fixes
+- Fixed Tongue Viseme animations not working.
+- Fixed GoGo Loco base controller intefering with Index controllers finger tracking data.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.51.6
+
+## Fixes
+- Fixed MMD toggle.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.51.5
+
+## Features
+- Split tail shape toggles into their own sub-menu with more granularity.
+- Cheese slap now activates based on velocity (FX controller updated).
+- Gaze Influence slider can now override gesture eye shape at 100%, the default value is now 30% of Gaze Influence.
+
+## Improvements
+- Speak sounds are half the volume for local player.
+- Slightly decreased speed of yap animation to reduce sound cut-off.
+- Certain blendtrees for left & right gestures are now merged into the FX controller rather than being seperate assets, this is to make it easier to modify the gestures per FX controller.
+- Updated bell angle volume logic.
+- Decreased angle limit of first bone of Ear Physbones to rotate less.
+
+## Changes
+- Simplified smoothing blendtrees that are linear.
+- Updated mouth wail animation.
+
+## Fixes
+- Fixed timer used for foot collider to return after touching own toes (toes won't glitch out anymore).
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.51.4
+
+## Features
+- Split heartbeat toggles into their own sub-menu, you can now disable with a toggle without modifying the speed & listen locally using a slider.
+
+## Fixes
+- Fixed HR Counter material broken with Poiyomi version `9.0.60`
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.51.3
+
+## Changes
+- Deleted EMPTY prefab variants of assets as they are no longer needed because VRCFury `1.1088` now handles PC & Quest synchronization!
+- Lowered bell volume for local user.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.51.2
+
+## Features
+- GoGoLoco version 1.8.6 now supported with more toggles available! Stand Idle pose is set to Wide by default to avoid hands clipping into hips for desktop users.
+
+## Improvements
+- Cheese slapping is now more reliable (for both the sender and receiver), updated contact sender shape & FX controller logic.
+- Bell sound logic has been updated to use blendtrees instead of state machines, bell sound will react better to movement.
+
+## Changes
+- Created separate prefab for adding Face Tracking sounds (hostile & wail).
+- Split collar & bell into its own independent directory & prefab.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.51.1
+
+## Fixes
+- Fixed Collar bell sound not playing for the correct duration.
+- Updated all sounds peak to be below -6db to avoid hitting VRC audio limiter that can cause a crackle.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.51.0
+
+## Features
+- Pulling both ears now makes the avatar speak!
+- Replaced cheese slap sound for three new ones that play randomly!
+- Included additional sound clips for use.
+
+## Improvements
+- Improved normalization, decibels & spatialization of all sounds.
+- VRC Mayu Avatar prefabs include all existing addons pre-installed (heartbeat, facetracking & clothes) with Quest version synced.
+- Cleaned up some sound clips.
+
+## Changes
+- Re-organized folders & prefabs under my own directory `AzukiTiger`!
+- GogoLoco no longer included, download separately!
+- Mayu VRM separated into its own unity package.
+
+## Fixes
+- Fixed FX Mayu Controller bug related to tail tug speak interaction.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.50.10 (includes version 1.50.9)
+
+## Summary
+Face tracking fixes only!
+
+## Fixes
+- Fixed issue with face tracking where frowning would interfere with tracked pupil dilation.
+- Fixed some face tracking proxy values being removed by VRCFury starting from version `1.1062.0` that would break speak interaction blending, tail wag override when smiling & tongue out viseme blending.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.50.8
+
+## Summary
+When using Wink gaze with face tracking, the eyes would no longer close (blink).
+
+## Fixes
+- Fixed Wink gaze not allowing face tracking to close eyes.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.50.7
+
+## Summary
+Fixed a problem where VRCFury starting from version `1.1062.0` added a new validation that breaks the Gaze Menu. Nothing important if you are using an older version of VRCFury.
+
+## Fixes
+- Fixed an issue with VRCFury starting from version `1.1062.0` that would break Gaze Menu.
+- Fixed wrong animations being used when combining shocked face (right hand rock & roll) with star eyes (left hand victory) and sad eyes (left hand rock & roll), the eye size should stay small.
+- Fixed some UV texture deformation for the hoodie.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.50.6
+
+## Features
+- Face tracking animator improvements! No more face tracking emotion triggers, instead emotions will blend based on the facial expressions!
+- Re-added blep gesture toggle for face tracking.
+- New lick lips interaction when holding double gun gesture.
+- Angry expression now blends with custom pupil size (up to 25%), includes Face Tracking.
+- New tail shape.
+
+# Improvements
+- Improved `Smile` blendshapes (includes face tracking).
+- Increased eye rotations for face tracking.
+- Smoother tongue weight paint and re-made tongue blendshapes (includes face tracking).
+- Improved long muzzle blendshape.
+- Tweaked mouth animations for expressions.
+- Face tracking is now disabled when `MMD` toggle is on.
+- `Eyelashes Pointy` blendshape re-worked to be thicker.
+- Tail physbone colliders increase in size with certain tail shapes.
+- Updated to `VRChat SDK 3.7.0` to replace Unity Constraints with VRC Constraints!
+- Updated texture to use `Kaiser` mipmap filtering.
+- Updated rig muscles for fingers to not curl into palms.
+
+# Changes
+- Removed angry and sad expression sounds from face tracking. FX Controller to add them back still included.
+- Increased smoothness of touch interactions.
+- Deleted `UE Face Tracking Unoptimized Prefab`, my optimized controller is available on version `6.3.0` of `VRCFT - Jerry's Templates`.
+- Removed unnecessary `Wink` face tracking blendshapes (instead uses `Wink` from eye blendshapes).
+
+# Fixes
+- Fixed some vertices on the tail being misaligned.
+- Fixed some blendshapes affecting the vertices of the fingers.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.50.5
+
+## Summary
+Important fix for face tracking, I updated the `FX Mayu UE Face Tracking Additions` controller with correct squinting blendtree logic.
+
+## Fixes
+- Fixed squinting with eye tracking causing avatar eyes to close.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.50.4
+
+## Summary
+Whisker vertices were messed up in the `Mouth Upper Up` face tracking blendshapes.
+
+## Fixes
+- Fixed face tracking `Mouth Upper Up` blendshapes whisker vertices.
+- Fixed quest avatar prefab having `Eye Look Down` blendshape at `100`.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.50.3
+
+## Summary
+FX controller changes & updated FBX because forgot to apply the updates for sabertooth blendshapes.
+
+## Changes
+- Applied missing sabertooth blendshape changes.
+- Adjusted sensitivity of face tracking expressions triggers (to avoid accidental triggers).
+
+## Fixes
+- Fixed when gesture locking the double fist gesture is still controlled by the trigger weights while controllers aren't being held as a fist.
+- Fixed certain controllers (like quest 2 controllers) not being able to do the double fist gesture because trigger weights are always pressed.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.50.2
+
+## Fixes
+- Reduced size of face cheek contact sensors to avoid triggering accidently.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.50.1
+
+## Fixes
+- Fixed long muzzle blendshape where the tongue was at the wrong position.
+- Disabled self interaction with face physbones because of the muzzle global collider.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.50.0
+
+## Features
+- Overhauled most blend shapes! Including visemes, brows, eyes, mouth, MMD, ARKit & Unified expressions.
+- Overhauled all materials shader settings (shading, details, matcaps & more).
+- Overhauled all physbones settings for more movement and gravity.
+- Updated facial expressions for more variety!
+- Eye Highlight now moves based on eye rotation (for VRC Eye Look & Face Tracking).
+- Customizable gaze now works with face tracking! Replaced "Howawa" for new "Squint" blendshape for gaze customization and improved blending.
+- New facial customization toggles & blendshapes! Muzzle is shorter by default with a slider to make it longer.
+- Ears now react to Eye Tracking & when Mouth Tracking tongue movement is not supported it will use the physbone.
+- New "Cheek Press" interaction (works with face tracking).
+- New toggle to make the avatar purr when feet are touched.
+- Trigger weight (pressure) while holding the double fist gesture now allows you to open the eyes and blep.
+- New "Female Breasts" blendshape (larger size), "Female Chest" is treated as legacy and still included. Decal used for breasts shadow when using slider.
+- New hoodie customization toggles (make it oversized & shorter), sleeves are longer & weight paint updates for larger breasts.
+- Heartbeat functionality has been moved to the "HR Prefab", now called "Heartbeat Prefab"! It can also reach higher and lower heartbeats without too much distortion (40bpm to 240bpm). Manual heartbeat can be set from 40bpm to 120bpm.
+
+## Improvements
+- Re-did weight paint for jaw bone (to re-do mouth blendshapes).
+-  Increased teeth girth & made fangs longer so they are visible when mouth opens (does not affect max sabertooth size).
+- Updated Face Tracking expressions transitions to use logarithmic smoothing.
+- Eye highlight transparency is now dependent on world brightness (by using emission 0).
+- Improved mouth animations for speak interactions (meow/moo/hiss/chirp).
+- New menu icons.
+
+## Changes
+- Removed Face Tracking blep gesture toggle.
+- Removed Face Collider game object.
+- Removed `Items` game object.
+- Removed unnecessary `VRCFury` components.
+- Re-did topology of butt cheeks (no increase in polycount), weight paint & UVs are unaffected.
+- Added more loops around lips, reduced Body poly count by 100~ triangles.
+- Cleaned up FX controller smoothing blendtrees to be less nested.
+
+## Fixes
+- Face tracking expressions are more reliable when triggering locally and remotely.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.43.0
+
+## Summary
+Removed my optimized Face Tracking FX controller which broke on later versions of Jerry's Face Tracking package, will be coming back in version `1.50.0`, no need to update.
+
+## Fixes
+- Updated to support latest version of Jerry's Face Tracking package.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.42.0
+
+## Summary
+Fixes revolve around Face Tracking, some of these changes were patched silently into version 1.41, but now announcing all fixes together (you might not be able to reproduce the issue because it was already fixed). 
+
+## Features
+- Replaced Lock Gestures toggle with a Menu to select a gesture to lock each hand with.
+
+## Changes
+- Reduced Face Tracking FX controller by 2 more layers.
+
+## Fixes
+- Fixed mouth animations for interactions not working when Face Tracking is active.
+- Fixed eyes not animating when Face Tracking Prefab is installed on the avatar (but Face Tracking is not active in-game).
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.41.0
+
+## Features
+- Eye poke is now smoothed when animating outwards!
+- Foot poke is now smoothed when animating outwards!
+- Reworked cheese interaction into its own layer to support multiple sound clips (not syncronized because of the speed in which cheese slap can happen).
+- Reworked ear twitch to work with face tracking.
+- Face tracking now uses improved smoothing and full float values for local users.
+- Added new meow sound.
+
+## Improvements
+- Reduced FX controller CPU frametime by 40% by reworking the FX Controller (replaced VRCFury smoothing with own smoothing).
+- Revamped Face Tracking Additions Controller to be more simple and reliable.
+- Replaced Face Tracking FX controller with my own (optimized and compact).
+- Replaced Face Tracking Additive controller with my own (optimized and compact).
+- Self touching toes is more reliable & reduced size of contact receivers to avoid activating accidently.
+
+## Changes
+- Mayu FX Controller is added in the VRC Avatar Descriptor rather than a VRCFury Full Controller.
+- Cleaned up FX controllers file size (to less than 1MB).
+
+## Fixes
+- Fixed eye dilation for Face Tracking.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.40.0
+
+## Improvements
+- Improved custom normals! For the blender file I re-made the meshes to calculate the custom normals & reduced the `Data Transfer` modifiers from 6 to only 3, takes about 2 minutes to apply the modifiers! The ears are separated into their own mesh to apply its own `Data Transfer` modifier before merging to `Body` mesh (takes less than 5 seconds). This is because the duration to apply the modifiers depends on not only the amount of `Data Transfer` modifiers but the amount of blendshapes.
+
+## Changes
+- Legacy prefabs no longer included. You can use the `MayuBake` blender file in Gumroad to convert legacy textures to the newer UVs, a video is included. The same process can be used to bake other textures if needed (for example emission or audio link maps/masks). You'll need to recreate your avatar if you are still using the legacy prefabs, you should just be able to drag and drop your assets from the legacy prefab avatar to the latest one.
+- Re-organized blendshapes of `Body` mesh with customization blendshapes at the bottom of the list.
+- Minor weight paint cleanup on neck.
+- `PantsOld.fbx` has been removed.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.39.0
+
+## Features
+- Claws are now retractable! Updated mesh shape for claws, fingers & toes. Mesh for painting (used for substance painter) have been updated.
+- Touching nose makes eyes squint.
+- New chirping sound (no increase in audio sources) which activates when a boop (nose touch) is held for 2 seconds. Works with face tracking.
+- Additional sound clips for speak interactions are now synced! Please check video again.
+
+## Improvements
+- Updated toes self interaction logic to prevent some instances where the global collider on the foot will collide with the toes.
+- Re-baked all AO maps with better settings.
+- Made latex for warmers more reflective.
+- More interactions are auto-disabled during MMD.
+- Increased `Point Light Passthrough` from `0.005` to `0.1` for all materials.
+
+## Changes
+- Inverted cheese blendshape so it's hidden by default.
+- Simplified some prefabs by removing the parameters list.
+- Avatar VRCFury Full Controller & FX Controller has been updated.
+
+## Fixes
+- Fixed `EyeLookUpLeft` face tracking blendshape.
+- Added missing `VRCFury Bounding Box Fix` component to legacy prefabs.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Version 1.38.0
+
+## Improvements
+- Removed baked AO maps from `albedo` texture (delete AO layer in substance painter files), instead only using AO maps directly for both Quest & PC materials. This removes artifacts caused by gradients when texture isn't `high quality`.
+- Updated belly shadow for body, included texture to add it to existing substance painter files (short video included).
+- Update quest head & body materials to use `Occlusion` slot (same texture as `Metallic` slot). This creates better shading by using the AO maps.
+
+## Changes
+- Removed toe bones from unity Rig to avoid toes from bending awkwardly.
+- Credits icon is shown on interactions sub-menu rather than adding an extra menu item.
+
+## Fixes
+- Re-baked AO for hoodie to fix blotched & dark shadows.
+- Fixed Mayu VRM prefab.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Release version 1.37.0
+
+## Features
+- Added Heartrate BPM counter to HR Prefab (created with Poiyomi). It's attached to the left hand by default through VRCFury Armature Link.
+
+## Changes
+- Moved Toes Puppet parameters & menu to its own game object under toggles (this uses 19 bits of parameter usage).
+- Updated all materials for fallback shaders to be Toon/Opaque/OneSided. Eyes material is set to `Hidden`.
+
+## Fixes
+- Fixed HR prefab VRCFury Full Controller component missing its global parameter.
+- Cleaned up Reflections & Specular of all materials to avoid using Packed Maps expanded. All generated masks are deleted, make sure to update the masks of your own materials for Reflections & Specular if missing for: Hoodie, Collar, Pants, Eyes.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Release version 1.36.0
+
+## Fixes
+- Fixed face tracking blendshapes for tongue.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Release version 1.35.0
+
+## Changes
+- Reduced volume of bell audio source by half for local user (so it doesn't sound like it's on your ear).
+- Attached the audio source for bell sounds to the collar rather on the bell, in order to avoid distortion caused by too much movement.
+
+## Fixes
+- Fixed 4 inverted UV polygons between the thighs (substance painter files are correct).
+- Added heartbeat parameters to Quest avatar to fix syncing issues.
+- Reduce intensity of `LipFunnel` face tracking blendshape by half because it stacks with `LipPucker` & `MouthTightener` blendshapes.
+- Fixed VRCFury Armature component of Collar prefab.
+- Removed incorrect AO map for Eyes material, does not require one.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Release version 1.34.0
+
+## Features
+- Now using `VRC Animator Play Audio`! Reduced audio sources by 2 (combined sounds for petting, wail expression & tail tug).
+- Added hiss sound to hostile expression (no increase to audio sources), also works with Face Tracking.
+- Added heartbeat sound to chest area with slider to control pitch (set 0 to disable), you can hear your own heartbeat while adjusting the slider. Works with HRtoVRC (prefab included), when active will take control of the pitch, setting the slider to 0 will still disable the heartbeat.
+- Added hypno effect for eyes, controlled by a toggle.
+- Added toggle to change warmers appearance into latex (you can have both fabric & latex within a single material).
+- Added MMD toggle, for MMD worlds that don't active it (to disable expressions).
+- Added contact receivers to each eye for poke interaction.
+- Now using `VRCFury Blendshape Optimizer`.
+- Now using `VRCFury Unlimited Params`! This means more sliders in the menu for customizing without impacting parameter usage. Updated the following toggles to sliders: Sabertooth, Long Cheek Fluff, Female (requires 50% or higher for physbone) & Gaze Influence.
+- Updated materials for softer shadows (uses new AO textures)! Update your materials with the new `Shading` & `Matcap` settings to get the soft shadows. Included an AO map with breasts for Body.
+- Added `LipFunnel`, `TongueUpLeftMorph`, `TongueUpRightMorph`, `TongueDownLeftMorph`, `TongueDownRightMorph` face tracking blendshapes.
+
+## Improvements
+- Improved the following face tracking blendshapes: `CheekSquintRight`, `CheekSquintLeft`, `CheekPuffLeft`, `CheekPuffRight`, `CheekSuckRight`, `CheekSuckLeft`, `JawForward`, `LipPucker`, `MouthRight`, `MouthLeft`, `MouthTightenerLeft`, MouthTightenerRight`, `TongueOut`, `TongueUp`, `TongueDown`, `TongueRight` & `TongueLeft`.
+- Split off some toggles from Master Layer into their own animators for toggles such as Top Whiskers, Side Whiskers & Female. To avoid off animations from playing if the toggle is deleted.
+- Tongue physbone activates much sooner for blep.
+- Reduced Ear Twitch speed for more accurate network sync.
+- Made sure Audio Sources while silent are disabled (avatars can only have a max of 3 audio sources active).
+- Turning off the Cheese Receiver toggle will also remove any cheese on face.
+- Removed `Logic Signals` layer and replaced with blend trees in `Master Layer`.
+- Increased sensitivity of viseme tongue movement.
+- Audio Sources are now disabled by component (script) rather by game object as recommended by VRChat.
+
+## Changes
+- Adjusted blinking to happen more often.
+- Simplified Gaze Menu FX controller by using `VRCFury Unlimited Params`.
+- Re-organized some toggles & sub-menus.
+- Increased every audio source range with a short drop-off.
+- Reduced wail expression sound to play ~2s after holding the expression.
+- Clothes are hidden by default.
+- Avatar no longer purrs while cheesed and left eye will be closed.
+- Collar bell physbone is no longer nested (physbone collision will need to be set again).
+- Collar bell audio source is no longer nested (custom sound will need to be set again).
+- Normalized audio files between -6db and -12 db as recommended by VRChat.
+- Moved audio sources back into the armature (so that the position scales properly).
+- Reduced texture size of clothing to 2K (only albedo), for more VRAM leg room.
+- Removed CuteDancer.
+
+## Fixes
+- Cleaned up `MouthLowerDown`, `MouthLowerDownRight`, `MouthLowerDownLeft`, `EyeLookInLeft`, `EyeLookInRight`, `EyeWideRight` & `EyeWideLeft` face tracking blendshapes.
+- Improved weight paint on neck when bending head.
+- Improved weight paint for warmers when bending feet.
+- Improved weight paint for tongue.
+- Improved weight paint to belly button area when bending both chest and spine.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Release version 1.33.0 (includes version 1.32.0)
+
+## Improvements
+- Increased minimum emission brightness for eyes from `0.1` to `0.25`
+- Cleaned AO map for head UV (overlapping meshes should have no baked shadows).
+- Updated space decal texture for a higher quality one.
+- Used Decal RGBA mask rather than global mask for decals.
+
+## Fixes
+- Fixed mesh for eye reflections not aligning properly over the eye balls.
+- Fixed outlines showing up around the eyeballs by increasing mask texture resolution from `512` to `1024`.
+- Fixed UE Face Tracking eye animation for heart eyes combined with shock expression.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Release version 1.31.0
+
+## Features
+- New symmetrical UVs for `body` to increase texture resolution by using a 4K texture & 2K texture! Two materials are required instead of one. Make sure to match your own texture settings with the ones included for best quality!
+- Two new materials for `body` which are outline ready! Audiolink is set to use a specific color for every emission rather than using the base color to avoid emission bleed issues.
+- New Mayu texture design & substance painter file with more detail (baked AO & gradients)! Audiolink mask is now created directly in substance painter rather than combined in the Pioyomi material to avoid texture artifacts. 3D Space Neighbor is preferred over UV Space Neighbor as recommended when painting across UV seams with continuous patterns, mesh is modified to avoid 3D Space Neighbor behavior on beans, nose, eyelashes, eye sockets, iris, throat & teeth.
+
+## Improvements
+- You can now self interact with your own toes (additional contact per foot). You can also rub your toes together!
+- Updated physbones to use more of the already included physbone colliders.
+- Updated UE Face Tracking controller to match version 5.3.3 of Jerry's FT templates.
+- Hoodie now uses UV Tile Discard to hide hoodie mesh rather than alpha cutout (back to Opaque), update your Hoodie materials accordingly by settings the UV Tile Discard properties as `animated`!
+- Added baked AO to clothing substance painter files.
+- Added creases to blender files to be able to use `subdivision` modifier for high quality renders.
+
+## Changes
+- Updated `EyeContrict` face tracking blend shapes.
+- Old `body` textures, materials, models & prefabs are moved under a `Legacy` folder.
+- Credits have been removed from chest and added into Expression Menu (1 less material usage).
+- Cute Dancer contact receivers are removed from Quest avatar (contact sensor limit reached).
+
+## Fixes
+- Fixed lighting not showing up in mirrors with Pioyomi 9 (enable mirror vertex lights under Shading/Light Data).
+- Fixed incorrect parameter for right foot touch interaction (right toes should spread now).
+- Fixed cute dancer sensors not being attached to the Hip (no longer on the ground).
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Release version 1.30.0
+
+## Features
+- Gaze now blends with gesture expressions (with up to a 50% influence). Added toggle to disable the influence.
+- Replaced radial puppet for Gaze with a sub-menu for easier granularity! No increase in parameter usage.
+
+## Improvements
+- Replaced Expressions layer `Motion Time` parameter from `Voice` to `Expressions/Gaze` in order to reduce blendtree size (when introducing gaze blending). Updated Mouth animations to use blend trees to set their blendshape to zero when voice is detected.
+- Speak is now disabled while MMD is active.
+- Cheese is now disabled while MMD is active.
+
+## Fixes
+- Viseme tongue movement is now disabled while MMD is active.
+- Weight paint fixes on Hoodie elbows.
+- Fixed issue where feet puppets controlled gaze and pupil values.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Release version 1.29.0
+
+## Features
+- Added `MouthTightener`, `MouthRaiserUpper`, `MouthPress`, `MouthDimple` face tracking blendshapes.
+- Gaze now includes pupil size customization, with no increase of parameter usage (reduced parameter usage by 7 instead). Pupil size also works with Face Tracking.
+- Added face tracking toggle to blep (with physbones) by right hand point gesture, can be combined with tongue tracking.
+- Seperated `Eye Pupil Hide` & `Eye Highlight Hide` blendshapes into left and right.
+- Seperated `Eye Pupil Short`, `Eye Pupil Narrow`, `Eye Pupil Large` blendshapes into left and right.
+- Seperated `Hide Leg Fluff` blendshape into left & right.
+- Leg warmers are now baggy around the calves (blendshape included to make them tight again).
+- Hoodie are now tight around the sleeves (blendshape included to make them large again).
+- Added `Hide Shoulder` blendshapes (left & right) to body.
+
+## Improvements
+- Updated materials to Pioyomi version 9.0 with overhauled shader settings (you will need to duplicate the material again for the new settings), older Pioyomi versions incompatible. Pioyomi version 9.0 can upgrade older materials for you.
+- Improved `EyeLookUp`, `EyeLookDown`, `NoseSneer` & `MouthRaiserLower` face tracking blendshapes.
+- Face tracking purring no longer requires smiling (action will stop if sad, angry or shock is expression is activated).
+- Custom normals for the back of the head (smoother shadows on the back hairs).
+- Updated face custom normals vertex group for smoother muzzle shadows.
+- Updated Normal Map textures to use `RG Compressed BC5` format (higher quality, same VRAM usage).
+- Better matcap for beans and body.
+- Increased eye emission intensity.
+- Updated `Mayu` substance painter file with mesh double.
+
+## Changes
+- Updated to VRCFury version 1.745.0+ new component architecture, older VRCFury versions incompatible.
+- Deleted face tracking animations which are duplicates of existing ones.
+- Unwrapped the inner UVs for the front torso island with `Female Chest` blendshape off, this caused textures with details on the chest to look blurry. If your texture has something other than flat colors or gradients on the chest, use the `MayuNoDoubleSP.fbx` to update your substance painter file then re-export the textures.
+
+## Fixes
+- Updated cheese slap logic to prevent quick slapping.
+- Better shoulder weight paint for Hoodie (less clipping on the hood).
+- Weight paint fixes for pants (belt & loops).
+- Fixed eye rotation values for face tracking for better responsiveness.
+- Tongue physbone is no longer active unless tongue is fully out to prevent clipping.
+- Updated shocked expression blendtree, previously caused issues with jittery smoothing (discovered during VRCFury regression).
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Release version 1.28.0
+
+## Features
+- Included experimental VRM prefab.
+
+## Improvements
+- Simplified Logic Signals layer by directly updating proxy values with the VRC Avatar Parameter Driver (removed related blend trees).
+- Cleaned vertex groups (weight paint) of all meshes, found some vertices belonging in the wrong groups.
+- Increased sensitivity for tongue movement in visemes.
+
+## Fixes
+- Added missing smoothing parameter for right foot contact.
+- Updated smooth parameter for ear physbone grab interaction.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Release version 1.27.0
+
+## Features
+- Collar only prefab (has own UVs with substance painter file).
+- Included 2 new bell sounds.
+- Included 2 new purr sounds.
+- Included 2 new meow sounds (tail tug).
+- Included 1 new moo sound (sad expression).
+- Added a toggle to hide the belt of the pants.
+- Added tight sleeves blendshape to Hoodie.
+
+## Improvements
+- Wink expression now uses igle gaze for left eye.
+- Better bell physbone angles to avoid rotating into collar.
+- Cleaned up original purr sound background noise.
+- Improved the clothes, pants and warmers fabric materials (substance painter files are also updated).
+- Pants now has blendshapes to hide the belt & loops separately.
+- Improved weight paint, mesh & UVs for pants. Old pants will still be included as old textures won't work. If you have an existing texture you want to re-use, import the `MayuSPClothes.fbx` into an existing substance painter file.
+
+## Changes
+- Reduced Meow expression animation from 40 frames to 35 frames.
+- Increased metallics reflection strength of Hoodie & Pants from 0 to 0.25
+
+## Fixes
+- Fixed female breasts physbone not working.
+- Increased Moo Sound animation from 30 frames to 40 frames (to match Moo expression animation which is 40 frames).
+- Increased Meow Sound animation from 30 frames to 35 frames (to match Meow expression animation which is now 35 frames).
+- Weight paint fixes to hoodie.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Release version 1.26.0
+
+## Improvements
+- Cheese contact sender has its own toggle under Interaction sub-menu.
+- CuteDancer contacts has its own toggle under Interaction sub-menu.
+
+## Changes
+- Removed `Sensors` toggle.
+- Moved CuteDancer sub-menu under Emotes sub-menu,
+- Moved Lock Gestures toggle back to Body Controls sub-menu.
+- Moved Audiolink toggle to Customize sub-menu.
+
+## Fixes
+- Fixed Wink expression not working.
+- Fixed SARS dance not working.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Release version 1.25.0
+
+## Features
+- Speak (Moo/Meow) interactions now work with Face Tracking and can be disabled separately with a toggle.
+- Added new ears animation used for shock and angry expression (also used for Face Tracking).
+
+## Improvements
+- Full GoGoLoco 1.8.3 now included, with more features exposed now (still using my own menu & parameters).
+- Updated how Items game object is constraint to the world (only one constraint). This also won't have issues when the avatar is not in `position 0 0 0`.
+- Angry expression ear animations now blend with Left Gestures.
+- Shocked expression eye animations and ear animations now blend with Left Gestures.
+- Reduced Idle Gaze from 16 bits to 8 bits of memory.
+
+## Changes
+- Moved CuteDancer to its own VRCFury script.
+
+## Fixes
+- AFK emote should not allow CuteDancer to activate.
+- Weight paint fixes to warmers (slight clipping on inner thigh).
+- Fixed FaceTracking purr sound not working.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Release version 1.24.0
+
+## Improvements
+- Added VRCFury Full Controller parameter list to Clothes to avoid sync issues with quest.
+
+## Changes
+- Removed GogoLoco T Pose controller.
+
+## Fixes
+- Fixed missing Physbone collision settings for Tail, Toes & Whiskers.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Released version 1.23.0
+
+## Improvements
+- Used VRCFury `MMD Compatibility` component.
+- Re-organized `Physbones` game object.
+- Fitted the torso collider to better match the avatar.
+
+## Changes
+- Updated VRCFury toggles that used `Set FX Float` (no longer required as they are now floats).
+
+## Fixes
+ - Removed duplicated sounds game objects.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Released version 1.22.0
+
+## Features
+- Added new Idle Gaze menu with icons! Set your idle gaze in-game.
+- Added Toes Puppet sub-menu under Body Controls sub-menu.
+- Added a Contact Receiver on each foot which causes toes to spread and move.
+- Added muzzle global collider! PC only.
+
+## Improvements
+- Moved GogoLoco to its own game object using VRCFury.
+- Updated Toe phybone angles.
+- Moved sounds to Avatar game object and attached them with VRCFury Armature link.
+- Updated feet global colliders size.
+
+## Changes
+- Moved Audiolink toggle under Interaction sub-menu.
+- Moved Lock Gestures under Customize sub-menu.
+
+## Fixes
+- Another minor weight paint fix for the pants.
+- Another minor weight paint fix for the thumbs.
+- Updated ear down animations so it clips less onto the side fluff.
+- Fixed some Toggles using the wrong parameter list for Full Controller.
+- Fixed bell sound pitch not changing with avatar height.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Released version 1.21.0
+
+## Improvements
+- Removed leaf bones from Body armature & updated phybones with endpoint positions. This is because VRM/VCF avatar will end up with longer than wanted spring bones with leaf bones.
+- Updated position of nose bone.
+- Updated FX controller expressions layer in a way that allows setting up your own custom idle eye/brow state. To set the idle eye/brow state of the avatar, a VRCFury script will be required. This is in order to support setting individual eye/brow states to multiple avatars in the same project.
+- Updated pants blendshape `Hide Buckle` to hide the buckle, belt and loops.
+- Updated Audiolink toggle to set `_AudioLinkAnimToggle` to 1.
+- Added `INSTALLATION` text file in prefabs folder, some prefabs like the hoodie require setting up the collisions for the physbones!
+
+## Fixes
+- Fixed avatar feet/beans clipping by raising it 0.01Y off the ground by rig configuration.
+- Weight paint fixes to pants crotch area.
+- Minor wieght paint fixes to toes.
+- Re-added some eye ball mesh as certain angles would allow you to see through the eye socket when face pulling.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Released version 1.20
+
+## Features
+- Added arm warmers and leg warmers!
+- Added new blendshape to hide body leg fluff.
+- Added new blendshapes to collapse the body elbows & knees, to avoid clipping on those areas with tight clothes like the warmers.
+
+## Improvements
+- Made Hoodie, Pants & Warmer float parameters global.
+- Updated mouth related blendshapes to move side whiskers.
+- Updated brow related blendshapes to move top whiskers.
+- Increased strength of face stretch blendshapes.
+- Improved custom normals on face (smoother shadows).
+
+## Fixes
+- Weight paint fixes to thumbs.
+- Weight paint fixes to pants lower leg.
+- Minor weight paint improvements overall.
+- Fixed awkward UVs on body lower legs.
+- Straighten some vertices on the body leg fluff.

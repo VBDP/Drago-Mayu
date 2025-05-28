@@ -1,0 +1,5 @@
+VRC MAYU CROTCH ATTACHMENT
+
+	Drag and drop the VRC Mayu Crotch Attachment Prefab into the VRC Mayu Avatar game object in your scene.
+	Add assets you want attached to the crotch inside the Crotch Attachment game object.
+	Make sure to remove any Armature Links from the assets inside the Crotch Attatchment game object.

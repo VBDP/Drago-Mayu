@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Gesture Menu
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 68f2064c78db02f438ff671e51eff3b4, type: 2}
+  controls:
+  - name: Right Gesture
+    icon: {fileID: 2800000, guid: c37100b1c2a57dc4e88c77dba9f147bc, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: dde7cb4a9fb33b64a94f18ab082762c4, type: 2}
+    subParameters: []
+    labels: []
+  - name: Blinking
+    icon: {fileID: 2800000, guid: 8d938605a3743f540a6fe1a93790146c, type: 3}
+    type: 102
+    parameter:
+      name: Mayu/Blink
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: dd70c2b7a6441294aae12fa082ed6788, type: 2}
+    subParameters: []
+    labels: []
+  - name: Left Gesture
+    icon: {fileID: 2800000, guid: 5354043688966c941b9ce07e90ab9539, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: dd70c2b7a6441294aae12fa082ed6788, type: 2}
+    subParameters: []
+    labels: []

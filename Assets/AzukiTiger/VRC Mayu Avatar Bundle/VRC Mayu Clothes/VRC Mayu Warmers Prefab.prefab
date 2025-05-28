@@ -1,0 +1,642 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5463345598037914834
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6573120235048208174, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2a06c58c83d10f1479171d62299f3a21, type: 2}
+    - target: {fileID: -6573120235048208174, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -6573120235048208174, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6573120235048208174, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6573120235048208174, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6573120235048208174, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[3]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2603735553335202139, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      propertyPath: m_Name
+      value: VRC Mayu Warmers Prefab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -757953970214455011}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8466738147698222190}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5381558258612581944}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2236127666669221184}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 188e5943926cd604f8a51b3fc1a33620,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3070698606897898307}
+  m_SourcePrefab: {fileID: 100100000, guid: 188e5943926cd604f8a51b3fc1a33620, type: 3}
+--- !u!1 &1156334041584638583 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2603735553335202139, guid: 188e5943926cd604f8a51b3fc1a33620,
+    type: 3}
+  m_PrefabInstance: {fileID: 5463345598037914834}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5120832684539726211 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 188e5943926cd604f8a51b3fc1a33620,
+    type: 3}
+  m_PrefabInstance: {fileID: 5463345598037914834}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-757953970214455011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5120832684539726211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1172.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176310861725843
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176310861725843
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 7
+        propBone: {fileID: 7458774217088025837}
+        linkTo:
+        - useBone: 1
+          bone: 0
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        removeBoneSuffix: 
+        removeParentConstraints: 1
+        forceMergedName: 
+        forceOneWorldScale: 0
+        recursive: 1
+        alignPosition: 1
+        alignRotation: 1
+        alignScale: 1
+        autoScaleFactor: 1
+        scalingFactorPowersOf10Only: 1
+        skinRewriteScalingFactor: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
+        keepBoneOffsets2: 0
+        linkMode: 4
+--- !u!114 &8466738147698222190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5120832684539726211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1172.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176310861725845
+  references:
+    version: 2
+    RefIds:
+    - rid: 1788561296373579961
+      type: {class: AnimationClipAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        clip:
+          version: 1
+          fileID: 0
+          guid: 
+          id: b5f2574aff3e8aa40911701ec085fdba|Assets/AzukiTiger/VRC Mayu Clothes/Warmers/Animations/T
+            - Warmers Legs On.anim
+          objRef: {fileID: 7400000, guid: b5f2574aff3e8aa40911701ec085fdba, type: 2}
+    - rid: 3147176310861725845
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Underwear/Leg Warmers
+        state:
+          actions:
+          - rid: 3147176310861725846
+          - rid: 3147176411409416316
+          - rid: 3147176310861725847
+          - rid: 3147176310861725848
+          - rid: 1788561296373579961
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 1
+        exclusiveTag: Mayu/Legs
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 60493c8ce97d8724eb8202ac0f566b66|Assets/AzukiTiger/VRC Mayu Clothes/Warmers/Icons/Leg
+            Warmers.png
+          objRef: {fileID: 2800000, guid: 60493c8ce97d8724eb8202ac0f566b66, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: Mayu/WarmersLegs
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 3147176310861725846
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Leg Fluff L
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 3147176310861725847
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Knee L
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 3147176310861725848
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Knee R
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 3147176411409416316
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Leg Fluff R
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+--- !u!114 &-5381558258612581944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5120832684539726211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1172.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176310861725849
+  references:
+    version: 2
+    RefIds:
+    - rid: 1788561296373579963
+      type: {class: AnimationClipAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        clip:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 0ff1865c6a50ab94c8dddc06b670cd4e|Assets/AzukiTiger/VRC Mayu Clothes/Warmers/Animations/T
+            - Warmers Arms On.anim
+          objRef: {fileID: 7400000, guid: 0ff1865c6a50ab94c8dddc06b670cd4e, type: 2}
+    - rid: 3147176310861725849
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Underwear/Arm Warmers
+        state:
+          actions:
+          - rid: 3147176310861725850
+          - rid: 3147176310861725851
+          - rid: 1788561296373579963
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 1
+        exclusiveTag: Mayu/Arms
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 8197125677b2ed94f81c813db1d707c2|Assets/AzukiTiger/VRC Mayu Clothes/Warmers/Icons/Arm
+            Warmers.png
+          objRef: {fileID: 2800000, guid: 8197125677b2ed94f81c813db1d707c2, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: Mayu/WarmersArms
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 3147176310861725850
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Elbow L
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+    - rid: 3147176310861725851
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Elbow R
+        blendShapeValue: 100
+        renderer: {fileID: 0}
+        allRenderers: 1
+--- !u!114 &2236127666669221184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5120832684539726211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1172.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1481816797171680175
+  references:
+    version: 2
+    RefIds:
+    - rid: 1481816797171680175
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Clothes/Underwear/Latex
+        state:
+          actions:
+          - rid: 1481816797171680176
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 69788d46777180e4eb3b8f0804040cba|Assets/AzukiTiger/VRC Mayu Avatar/Icons/Shiny.png
+          objRef: {fileID: 2800000, guid: 69788d46777180e4eb3b8f0804040cba, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: Mayu/WarmersLatex
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 1481816797171680176
+      type: {class: AnimationClipAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        clip:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 8e23b8de025570d40af27427186be680|Assets/AzukiTiger/VRC Mayu Clothes/Warmers/Animations/T
+            - Warmers Latex.anim
+          objRef: {fileID: 7400000, guid: 8e23b8de025570d40af27427186be680, type: 2}
+--- !u!114 &3070698606897898307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5120832684539726211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1172.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5935413850331152959
+  references:
+    version: 2
+    RefIds:
+    - rid: 5935413850331152959
+      type: {class: ApplyDuringUpload, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        action:
+          actions:
+          - rid: 5935413850331152960
+          - rid: 5935413850331152961
+          - rid: 5935413850331152962
+          - rid: 5935413850331152963
+          - rid: 5935413850331152964
+    - rid: 5935413850331152960
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 1156334041584638583}
+        mode: 1
+    - rid: 5935413850331152961
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Warmers Lower Arms
+        blendShapeValue: 100
+        renderer: {fileID: 8004627275510877184}
+        allRenderers: 0
+    - rid: 5935413850331152962
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Warmers Lower Legs
+        blendShapeValue: 100
+        renderer: {fileID: 8004627275510877184}
+        allRenderers: 0
+    - rid: 5935413850331152963
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Warmers Upper Arms
+        blendShapeValue: 100
+        renderer: {fileID: 8004627275510877184}
+        allRenderers: 0
+    - rid: 5935413850331152964
+      type: {class: BlendShapeAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        blendShape: Hide Warmers Upper Legs
+        blendShapeValue: 100
+        renderer: {fileID: 8004627275510877184}
+        allRenderers: 0
+--- !u!1 &7458774217088025837 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3193984804284641343, guid: 188e5943926cd604f8a51b3fc1a33620,
+    type: 3}
+  m_PrefabInstance: {fileID: 5463345598037914834}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &8004627275510877184 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -6573120235048208174, guid: 188e5943926cd604f8a51b3fc1a33620,
+    type: 3}
+  m_PrefabInstance: {fileID: 5463345598037914834}
+  m_PrefabAsset: {fileID: 0}

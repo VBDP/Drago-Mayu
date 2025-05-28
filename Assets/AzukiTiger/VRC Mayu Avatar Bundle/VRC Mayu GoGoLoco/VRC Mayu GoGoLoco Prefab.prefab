@@ -1,0 +1,341 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7088152649172247296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6786686194535119629}
+  - component: {fileID: 4925750532097878900}
+  - component: {fileID: -4052695243805649469}
+  - component: {fileID: -275995305816367465}
+  - component: {fileID: 8645587282823665347}
+  - component: {fileID: -6826928853705239355}
+  m_Layer: 0
+  m_Name: VRC Mayu GoGoLoco Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6786686194535119629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088152649172247296}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4925750532097878900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088152649172247296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1086.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5769076542270079733
+  references:
+    version: 2
+    RefIds:
+    - rid: 5769076542270079733
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Body Controls/Locomotion/Feral
+        state:
+          actions: []
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 1
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 05e528a037ca2354ebdf0733803a992f|Assets/AzukiTiger/VRC Mayu Avatar/Icons/Cat.png
+          objRef: {fileID: 2800000, guid: 05e528a037ca2354ebdf0733803a992f, type: 3}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 1
+        globalParam: Go/Mayu/Feral
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+--- !u!114 &-4052695243805649469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088152649172247296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1086.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176312603672839
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176312603672839
+      type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 4
+        controllers:
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 683c23c22af461c4ea2bd6eec67e04dc|Assets/AzukiTiger/VRC Mayu GoGoLoco/GoLocoBase
+              Mayu.controller
+            objRef: {fileID: 9100000, guid: 683c23c22af461c4ea2bd6eec67e04dc, type: 2}
+          type: 0
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 89277dccc41cd85409cce0f7eeae9b0f|Packages/gogoloco/Runtime/GoGo/GoLoco/ControllersWD/GoLocoAdditiveWD.controller
+            objRef: {fileID: 9100000, guid: 89277dccc41cd85409cce0f7eeae9b0f, type: 2}
+          type: 2
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 8c6d8dba0bf05dd4ba2fb6dec9c891f9|Packages/gogoloco/Runtime/GoGo/GoLoco/ControllersWD/GoLocoGestureWD.controller
+            objRef: {fileID: 9100000, guid: 8c6d8dba0bf05dd4ba2fb6dec9c891f9, type: 2}
+          type: 3
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: f094f2181f4e52b478200609d93196ae|Packages/gogoloco/Runtime/GoGo/GoLoco/ControllersWD/GoLocoActionWD.controller
+            objRef: {fileID: 9100000, guid: f094f2181f4e52b478200609d93196ae, type: 2}
+          type: 4
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 4d3257c455716f848b472f8c98b22fd0|Packages/gogoloco/Runtime/GoGo/GoLoco/ControllersWD/GoLocoSittingWD.controller
+            objRef: {fileID: 9100000, guid: 4d3257c455716f848b472f8c98b22fd0, type: 2}
+          type: 6
+        menus:
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 0983e60758c6c9e41a0d2099ff3e2439|Packages/gogoloco/Runtime/GoGo/GoLoco/MainMenu/Menu/SubMenu/GoMenuEmotes.asset
+            objRef: {fileID: 11400000, guid: 0983e60758c6c9e41a0d2099ff3e2439, type: 2}
+          prefix: Body Controls/Emotes
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 195aef2853af8c3449c051bc13ea7af3|Packages/gogoloco/Runtime/GoGo/GoLoco/MainMenu/Menu/SubMenu/GoMenuPose.asset
+            objRef: {fileID: 11400000, guid: 195aef2853af8c3449c051bc13ea7af3, type: 2}
+          prefix: Body Controls/Poses
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 162a302d400799d44b42de883aca93aa|Assets/AzukiTiger/VRC Mayu GoGoLoco/Locomotion
+              Mayu.asset
+            objRef: {fileID: 11400000, guid: 162a302d400799d44b42de883aca93aa, type: 2}
+          prefix: Body Controls/Locomotion
+        prms:
+        - parameters:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 9cafe6fc85edd0940b056ef9a9f1524c|Assets/AzukiTiger/VRC Mayu GoGoLoco/GoAllParameters
+              Mayu.asset
+            objRef: {fileID: 11400000, guid: 9cafe6fc85edd0940b056ef9a9f1524c, type: 2}
+        smoothedPrms: []
+        globalParams:
+        - '*'
+        allNonsyncedAreGlobal: 0
+        ignoreSaved: 0
+        toggleParam: 
+        rootObjOverride: {fileID: 0}
+        rootBindingsApplyToAvatar: 0
+        rewriteBindings: []
+        allowMissingAssets: 0
+        injectSpsDepthParam: 
+        controller:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        menu:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        parameters:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        submenu: 
+        removePrefixes: []
+        addPrefix: 
+        useSecurityForToggle: 0
+--- !u!114 &-275995305816367465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088152649172247296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1086.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176312603672840
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176312603672840
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Body Controls/Locomotion
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: aa27c4760e38d5e40b4ec52aa1b6d991|Assets/AzukiTiger/VRC Mayu Avatar/Icons/Gogo.png
+          objRef: {fileID: 2800000, guid: aa27c4760e38d5e40b4ec52aa1b6d991, type: 3}
+--- !u!114 &8645587282823665347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088152649172247296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1086.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176312603672842
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176312603672842
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Body Controls/Poses
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 26637a080b65e4e469e48b20bf832d76|Assets/AzukiTiger/VRC Mayu Avatar/Icons/Pose.png
+          objRef: {fileID: 2800000, guid: 26637a080b65e4e469e48b20bf832d76, type: 3}
+--- !u!114 &-6826928853705239355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088152649172247296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1086.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 3147176312603672841
+  references:
+    version: 2
+    RefIds:
+    - rid: 3147176312603672841
+      type: {class: SetIcon, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 1
+        path: Body Controls/Emotes
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: a3273b85f8423bb47bef9def85485eea|Assets/AzukiTiger/VRC Mayu Avatar/Icons/Emote.png
+          objRef: {fileID: 2800000, guid: a3273b85f8423bb47bef9def85485eea, type: 3}

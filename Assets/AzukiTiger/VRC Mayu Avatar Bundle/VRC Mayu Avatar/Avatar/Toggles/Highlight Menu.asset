@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Highlight Menu
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: f8acb53ad53ab6c488f96f7d05955436, type: 2}
+  controls:
+  - name: 'Star
+
+      Highlights'
+    icon: {fileID: 2800000, guid: 91d5ffaa95eb76645a8a440ec9a9959f, type: 3}
+    type: 102
+    parameter:
+      name: Mayu/Highlight
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: 'Diamond
+
+      Highlights'
+    icon: {fileID: 2800000, guid: d956320cc492c7a4c80e5681ced06b68, type: 3}
+    type: 102
+    parameter:
+      name: Mayu/Highlight
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: 'Oval
+
+      Highlights'
+    icon: {fileID: 2800000, guid: 3f2e296f5129fbc43aff2aec328c12eb, type: 3}
+    type: 102
+    parameter:
+      name: Mayu/Highlight
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: 'Dual Diamond
+
+      Highlights'
+    icon: {fileID: 2800000, guid: 1bede8415dd88a543a0711feaa46d81e, type: 3}
+    type: 102
+    parameter:
+      name: Mayu/Highlight
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: 'Dual Oval
+
+      Highlights'
+    icon: {fileID: 2800000, guid: 3ed6082029b295e418fca2f316b0bedf, type: 3}
+    type: 102
+    parameter:
+      name: Mayu/Highlight
+    value: 0
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
