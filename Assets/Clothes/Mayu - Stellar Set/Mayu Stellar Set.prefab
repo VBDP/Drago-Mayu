@@ -2844,7 +2844,7 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: c8160d890f5cb014e8f3df2ed20d1878|Assets/Mayu - Stellar Set/Stellar
+          id: c8160d890f5cb014e8f3df2ed20d1878|Assets/Clothes/Mayu - Stellar Set/Stellar
             Cuffs/Material/Stellar Cuffs.mat
           objRef: {fileID: 2100000, guid: c8160d890f5cb014e8f3df2ed20d1878, type: 2}
     - rid: 4564343401886777748
@@ -2862,7 +2862,7 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: c8160d890f5cb014e8f3df2ed20d1878|Assets/Mayu - Stellar Set/Stellar
+          id: c8160d890f5cb014e8f3df2ed20d1878|Assets/Clothes/Mayu - Stellar Set/Stellar
             Cuffs/Material/Stellar Cuffs.mat
           objRef: {fileID: 2100000, guid: c8160d890f5cb014e8f3df2ed20d1878, type: 2}
     - rid: 4564343401886777749
@@ -2880,8 +2880,8 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: e3cfbf7d0b05fab43935523575a1bd88|Assets/Mayu - Stellar Set/Lounge Set/Material/Somna
-            Texture.mat
+          id: e3cfbf7d0b05fab43935523575a1bd88|Assets/Clothes/Mayu - Stellar Set/Lounge
+            Set/Material/Somna Texture.mat
           objRef: {fileID: 2100000, guid: e3cfbf7d0b05fab43935523575a1bd88, type: 2}
     - rid: 4564343401886777750
       type: {class: MaterialAction, ns: VF.Model.StateAction, asm: VRCFury}
@@ -2898,8 +2898,8 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: e3cfbf7d0b05fab43935523575a1bd88|Assets/Mayu - Stellar Set/Lounge Set/Material/Somna
-            Texture.mat
+          id: e3cfbf7d0b05fab43935523575a1bd88|Assets/Clothes/Mayu - Stellar Set/Lounge
+            Set/Material/Somna Texture.mat
           objRef: {fileID: 2100000, guid: e3cfbf7d0b05fab43935523575a1bd88, type: 2}
 --- !u!1 &7804743691819677838
 GameObject:

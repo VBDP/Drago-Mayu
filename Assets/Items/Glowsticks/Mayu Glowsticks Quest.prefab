@@ -1346,7 +1346,7 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 53a65e5687c8e974a9e3158d7e09bf2e|Assets/Glowsticks/Icons/GS-Enable.png
+          id: 53a65e5687c8e974a9e3158d7e09bf2e|Assets/Items/Glowsticks/Icons/GS-Enable.png
           objRef: {fileID: 2800000, guid: 53a65e5687c8e974a9e3158d7e09bf2e, type: 3}
         enableDriveGlobalParam: 0
         driveGlobalParam: 
@@ -1415,7 +1415,7 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: f6aef4ab24660624692416d73d6d3601|Assets/Glowsticks/Icons/GS-MainMenu.png
+          id: f6aef4ab24660624692416d73d6d3601|Assets/Items/Glowsticks/Icons/GS-MainMenu.png
           objRef: {fileID: 2800000, guid: f6aef4ab24660624692416d73d6d3601, type: 3}
 --- !u!1 &9149223339232918119 stripped
 GameObject:
