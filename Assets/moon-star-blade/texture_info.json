@@ -1,0 +1,279 @@
+{
+  "results": [
+    {
+      "uid": "c7cd4606cba346febe218057cc7546db",
+      "name": "MoonAndStarBlade_normals.png",
+      "images": [
+        {
+          "uid": "3432babf4b034362b5e585e5cda1140a",
+          "size": 1101,
+          "width": 64,
+          "height": 64,
+          "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/textures/c7cd4606cba346febe218057cc7546db/3432babf4b034362b5e585e5cda1140a.astc.gz",
+          "options": {
+            "format": "N",
+            "quality": {
+              "flag": "percep",
+              "time": 0.9164729118,
+              "normal": true,
+              "bitrate": "2.0"
+            },
+            "filesize": 1101
+          },
+          "createdAt": "2018-02-13T22:35:21.168587",
+          "updatedAt": "2019-10-05T13:52:38.215352"
+        },
+        {
+          "uid": "eade007abe50470abf677a42c713676d",
+          "size": 3870,
+          "width": 128,
+          "height": 128,
+          "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/textures/c7cd4606cba346febe218057cc7546db/eade007abe50470abf677a42c713676d.astc.gz",
+          "options": {
+            "format": "N",
+            "quality": {
+              "flag": "percep",
+              "time": 3.3098540306,
+              "normal": true,
+              "bitrate": "2.0"
+            },
+            "filesize": 3870
+          },
+          "createdAt": "2018-02-13T22:35:21.11886",
+          "updatedAt": "2019-10-05T13:52:38.335925"
+        },
+        {
+          "uid": "0cf17a0fa42f47f1b95bef0cc3572402",
+          "size": 13279,
+          "width": 256,
+          "height": 256,
+          "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/textures/c7cd4606cba346febe218057cc7546db/0cf17a0fa42f47f1b95bef0cc3572402.astc.gz",
+          "options": {
+            "format": "N",
+            "quality": {
+              "flag": "percep",
+              "time": 11.7578139305,
+              "normal": true,
+              "bitrate": "2.0"
+            },
+            "filesize": 13279
+          },
+          "createdAt": "2018-02-13T22:35:20.980825",
+          "updatedAt": "2019-10-05T13:52:38.497273"
+        },
+        {
+          "uid": "65cb83d316d740fc84527a44b6ee306e",
+          "size": 44455,
+          "width": 512,
+          "height": 512,
+          "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/textures/c7cd4606cba346febe218057cc7546db/65cb83d316d740fc84527a44b6ee306e.astc.gz",
+          "options": {
+            "format": "N",
+            "quality": {
+              "flag": "percep",
+              "time": 40.0640759468,
+              "normal": true,
+              "bitrate": "2.0"
+            },
+            "filesize": 44455
+          },
+          "createdAt": "2018-02-13T22:35:20.926661",
+          "updatedAt": "2019-10-05T13:52:38.702213"
+        },
+        {
+          "uid": "e8ed947eb5cf45e1aed246920cca2e4a",
+          "size": 4739,
+          "width": 64,
+          "height": 64,
+          "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/textures/c7cd4606cba346febe218057cc7546db/e8ed947eb5cf45e1aed246920cca2e4a.jpg",
+          "options": {
+            "format": "N",
+            "quality": 95,
+            "filesize": 4739
+          },
+          "createdAt": "2018-02-13T20:24:41.972124",
+          "updatedAt": "2019-10-05T13:52:38.907978"
+        },
+        {
+          "uid": "bf5cbf2aa93b4e76a4cb7ecd081cfae5",
+          "size": 14262,
+          "width": 128,
+          "height": 128,
+          "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/textures/c7cd4606cba346febe218057cc7546db/bf5cbf2aa93b4e76a4cb7ecd081cfae5.jpg",
+          "options": {
+            "format": "N",
+            "quality": 95,
+            "filesize": 14262
+          },
+          "createdAt": "2018-02-13T20:24:41.928213",
+          "updatedAt": "2019-10-05T13:52:39.020554"
+        },
+        {
+          "uid": "b47835531ea34e90a46a04283aa2f66d",
+          "size": 41523,
+          "width": 256,
+          "height": 256,
+          "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/textures/c7cd4606cba346febe218057cc7546db/b47835531ea34e90a46a04283aa2f66d.jpg",
+          "options": {
+            "format": "N",
+            "quality": 95,
+            "filesize": 41523
+          },
+          "createdAt": "2018-02-13T20:24:41.857855",
+          "updatedAt": "2019-10-05T13:52:39.130284"
+        },
+        {
+          "uid": "bcdf9e907d7e43e7bc26cb34c18f8849",
+          "size": 113528,
+          "width": 512,
+          "height": 512,
+          "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/textures/c7cd4606cba346febe218057cc7546db/bcdf9e907d7e43e7bc26cb34c18f8849.jpg",
+          "options": {
+            "format": "N",
+            "quality": 95,
+            "filesize": 113528
+          },
+          "createdAt": "2018-02-13T20:24:41.796895",
+          "updatedAt": "2019-10-05T13:52:39.294728"
+        },
+        {
+          "uid": "4146422345614707adfbbef29edb2873",
+          "size": null,
+          "width": 512,
+          "height": 512,
+          "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/textures/c7cd4606cba346febe218057cc7546db/4146422345614707adfbbef29edb2873.png",
+          "options": {},
+          "createdAt": "2015-09-02T22:24:04",
+          "updatedAt": "2019-10-05T13:52:39.45226"
+        },
+        {
+          "uid": "38b6f3cb74154bf2bc323bd3016d1e42",
+          "size": null,
+          "width": 32,
+          "height": 32,
+          "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/textures/c7cd4606cba346febe218057cc7546db/38b6f3cb74154bf2bc323bd3016d1e42.png",
+          "options": {},
+          "createdAt": "2015-09-02T22:24:04",
+          "updatedAt": "2019-10-05T13:52:39.590848"
+        }
+      ],
+      "colorSpace": "unknown",
+      "createdAt": "2015-09-02T22:24:04",
+      "updatedAt": "2020-10-03T10:25:50.05913"
+    },
+    {
+      "uid": "8bb043c8b4744047b84bd59269d4f412",
+      "name": "MoonAndStarBlade_Colour.jpg",
+      "images": [
+        {
+          "uid": "833217b3db054567adfd271a7e5dab16",
+          "size": 5132,
+          "width": 64,
+          "height": 64,
+          "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/textures/8bb043c8b4744047b84bd59269d4f412/833217b3db054567adfd271a7e5dab16.jpg",
+          "options": {
+            "format": "RGB",
+            "quality": 95,
+            "filesize": 5132
+          },
+          "createdAt": "2018-02-13T20:24:33.920398",
+          "updatedAt": "2019-10-05T13:52:37.300297"
+        },
+        {
+          "uid": "f762dc2e204b40cfafcc121996dd74f1",
+          "size": 13984,
+          "width": 128,
+          "height": 128,
+          "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/textures/8bb043c8b4744047b84bd59269d4f412/f762dc2e204b40cfafcc121996dd74f1.jpg",
+          "options": {
+            "format": "RGB",
+            "quality": 95,
+            "filesize": 13984
+          },
+          "createdAt": "2018-02-13T20:24:33.811635",
+          "updatedAt": "2019-10-05T13:52:37.444674"
+        },
+        {
+          "uid": "b85d17b617db4958b14f821f03e17a5f",
+          "size": 37030,
+          "width": 256,
+          "height": 256,
+          "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/textures/8bb043c8b4744047b84bd59269d4f412/b85d17b617db4958b14f821f03e17a5f.jpg",
+          "options": {
+            "format": "RGB",
+            "quality": 95,
+            "filesize": 37030
+          },
+          "createdAt": "2018-02-13T20:24:32.995683",
+          "updatedAt": "2019-10-05T13:52:37.576643"
+        },
+        {
+          "uid": "2f652fcec2de43fc98b80e10cf18f1e0",
+          "size": 93647,
+          "width": 512,
+          "height": 512,
+          "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/textures/8bb043c8b4744047b84bd59269d4f412/2f652fcec2de43fc98b80e10cf18f1e0.jpg",
+          "options": {
+            "format": "RGB",
+            "quality": 95,
+            "filesize": 93647
+          },
+          "createdAt": "2018-02-13T20:24:32.95489",
+          "updatedAt": "2019-10-05T13:52:37.687669"
+        },
+        {
+          "uid": "dca53dec48e34d1083ebdf3d77f7f779",
+          "size": null,
+          "width": 512,
+          "height": 512,
+          "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/textures/8bb043c8b4744047b84bd59269d4f412/dca53dec48e34d1083ebdf3d77f7f779.jpg",
+          "options": {},
+          "createdAt": "2015-09-02T22:24:04",
+          "updatedAt": "2019-10-05T13:52:37.854622"
+        },
+        {
+          "uid": "4143d3e9c64b4e8cbb9b75ee3463a06e",
+          "size": null,
+          "width": 32,
+          "height": 32,
+          "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/textures/8bb043c8b4744047b84bd59269d4f412/4143d3e9c64b4e8cbb9b75ee3463a06e.jpeg",
+          "options": {},
+          "createdAt": "2015-09-02T22:24:04",
+          "updatedAt": "2019-10-05T13:52:38.095819"
+        }
+      ],
+      "colorSpace": "unknown",
+      "createdAt": "2015-09-02T22:24:04",
+      "updatedAt": "2020-10-03T10:25:47.752728"
+    },
+    {
+      "uid": "40964d38b163458fb58b669dcb6aac92",
+      "name": "MoonAndStarBlade_Spec.jpg",
+      "images": [
+        {
+          "uid": "30eeedaae78943d38e39493cd6cbf7e5",
+          "size": null,
+          "width": 512,
+          "height": 512,
+          "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/textures/40964d38b163458fb58b669dcb6aac92/30eeedaae78943d38e39493cd6cbf7e5.jpg",
+          "options": {},
+          "createdAt": "2015-09-02T22:24:04",
+          "updatedAt": "2019-10-05T13:52:37.024744"
+        },
+        {
+          "uid": "eab9b77e4c844be289413590992cf699",
+          "size": null,
+          "width": 32,
+          "height": 32,
+          "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/textures/40964d38b163458fb58b669dcb6aac92/eab9b77e4c844be289413590992cf699.jpeg",
+          "options": {},
+          "createdAt": "2015-09-02T22:24:03",
+          "updatedAt": "2019-10-05T13:52:37.132741"
+        }
+      ],
+      "colorSpace": "unknown",
+      "createdAt": "2015-09-02T22:24:04",
+      "updatedAt": "2020-10-03T10:25:45.357825"
+    }
+  ]
+}

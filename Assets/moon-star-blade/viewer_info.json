@@ -1,0 +1,737 @@
+{
+  "uid": "4eefbc69a64148a2810dc93eacb6645d",
+  "user": {
+    "uid": "47de6c47f7ce40aaa1cbfbee2a4fb001",
+    "username": "grasbock",
+    "displayName": "Grasbock",
+    "account": "basic",
+    "profileUrl": "https://sketchfab.com/grasbock",
+    "avatars": {
+      "uid": "1fa788bcc3ab49b8bea165ac02bb6c12",
+      "images": [
+        {
+          "width": 32,
+          "height": 32,
+          "size": 918,
+          "url": "https://media.sketchfab.com/avatars/1fa788bcc3ab49b8bea165ac02bb6c12/8b1286d7bca245a7a108cbed586a42f5.jpeg"
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "size": 1479,
+          "url": "https://media.sketchfab.com/avatars/1fa788bcc3ab49b8bea165ac02bb6c12/6dbdbe2ef14e4c6c8319b939cbaae0df.jpeg"
+        },
+        {
+          "width": 90,
+          "height": 90,
+          "size": 3730,
+          "url": "https://media.sketchfab.com/avatars/1fa788bcc3ab49b8bea165ac02bb6c12/ed9a311f1bae44a381064d258b5f0b92.jpeg"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "size": 4178,
+          "url": "https://media.sketchfab.com/avatars/1fa788bcc3ab49b8bea165ac02bb6c12/50dac5436b4d4a33b5d7370cb683bc92.jpeg"
+        }
+      ]
+    }
+  },
+  "name": "Moon & Star Blade",
+  "description": "Handpainted blade for fantasy games. This is the Moon & Star theme.",
+  "thumbnails": {
+    "uid": "37025e0bf5c945d9b1d49c3b4616d00c",
+    "images": [
+      {
+        "uid": "b6e1572fbf6d46dfbb4b3e8bfa3dc1b8",
+        "width": 1920,
+        "height": 1080,
+        "size": 111704,
+        "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/thumbnails/37025e0bf5c945d9b1d49c3b4616d00c/29ba7cf393ce4b2b9952fd0f0410be68.jpeg"
+      },
+      {
+        "uid": "f52a61529aa149f9896d1aadfd9e6a7b",
+        "width": 1024,
+        "height": 576,
+        "size": 25314,
+        "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/thumbnails/37025e0bf5c945d9b1d49c3b4616d00c/04201a269774488d862f9d8905b9ab2e.jpeg"
+      },
+      {
+        "uid": "ec1956800539477aa05850f2391fd859",
+        "width": 720,
+        "height": 405,
+        "size": 13374,
+        "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/thumbnails/37025e0bf5c945d9b1d49c3b4616d00c/126ba33eae6e424a84d2c28512b9f431.jpeg"
+      },
+      {
+        "uid": "4a79d083723a44c48e633034bf904700",
+        "width": 256,
+        "height": 144,
+        "size": 2818,
+        "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/thumbnails/37025e0bf5c945d9b1d49c3b4616d00c/82607a446a044824ab30a8ea3885e1da.jpeg"
+      },
+      {
+        "uid": "4dbe68e7c953429ab6d7c44c6ccba0ea",
+        "width": 64,
+        "height": 36,
+        "size": 708,
+        "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/thumbnails/37025e0bf5c945d9b1d49c3b4616d00c/a7beae104a37448d9f12c50baf1b6704.jpeg"
+      }
+    ]
+  },
+  "viewCount": 400,
+  "likeCount": 6,
+  "animationCount": 0,
+  "vertexCount": 445,
+  "faceCount": 886,
+  "staffpickedAt": null,
+  "publishedAt": "2015-09-02T22:24:51",
+  "viewerUrl": "https://sketchfab.com/3d-models/moon-star-blade-4eefbc69a64148a2810dc93eacb6645d",
+  "embedUrl": "https://sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/embed",
+  "editorUrl": "https://sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edit",
+  "license": {
+    "uid": "783b685da9bf457d81e829fa283f3567",
+    "label": "Standard",
+    "fullname": "Standard",
+    "slug": "st",
+    "summary": "Standard",
+    "requirements": "Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works",
+    "url": "https://sketchfab.com/licenses",
+    "free": false,
+    "needsAttribution": false,
+    "ccClauses": null
+  },
+  "isPublished": true,
+  "isDownloadable": false,
+  "downloadType": "store",
+  "isInspectable": true,
+  "isDeleted": false,
+  "processingStatus": 2,
+  "processedAt": "2018-02-13T20:00:35.38414",
+  "status": {
+    "warning": {},
+    "processing": "SUCCEEDED"
+  },
+  "isRestricted": false,
+  "files": [
+    {
+      "uid": "4219caeab2614a21bc853dd6ad4044e9",
+      "flag": 0,
+      "osgjsUrl": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/files/4219caeab2614a21bc853dd6ad4044e9/file.binz",
+      "modelSize": 9972,
+      "osgjsSize": 1248,
+      "wireframeSize": 2977,
+      "p": [
+        {
+          "v": 1,
+          "b": "Wzxak823IKvQX3woJ+RkZhXCts4blwmRrbAtDEiJMThBe3tqL0rcZ47Jywu2Wrg9vSOQ8AjcZLyo\nWIDHDJsFRKobWpPYfttSppRSOQA2ADwAXqYcw0VPedMmq4POdJKfa0SPhPd1NqVk7ZQh+tqpZfpw\nNr2Q+yygG2kHId/CGUe+QHaRPcuHy+QDn4FfVlenWMq1Rl/K0VY+nLvLzxxswQ+swL0p6xF2NqLj\nE9Bbjepxp1blqs/rbMrk59XFOSlKsJnDxcNmr4pulyY0pZiXLRT7ly0k0ggvzl0AE3MJZsmIMy38\niIu5nJKbeiP5TS1HLy4Ew+pDEPThPAgKvAWYQMfNtMw2ZJbXILOaS0EwpaabVTpmbg4AekwnCXrT\njk75+co13cvqUCTR7VGk0IaHYg4IICjgJBhJenDk1Eq1ZkPCuSgSViCI8dc55TaZDMY4IB4SNZ5U\nKxfhsH3g8LL2jx1h1PNQhB2hukQ9UikvzdgYKAJWReEB",
+          "d": true
+        }
+      ]
+    }
+  ],
+  "options": {
+    "scene": {
+      "fov": 51,
+      "postProcess": {
+        "dof": {
+          "enable": false,
+          "blurFar": 0.5,
+          "blurNear": 0.5,
+          "focusPoint": [
+            0,
+            0,
+            0
+          ]
+        },
+        "taa": {
+          "enable": true,
+          "transparent": true
+        },
+        "ssao": {
+          "bias": 0.0932518021,
+          "enable": false,
+          "radius": 0.4662590106,
+          "intensity": 0.5
+        },
+        "bloom": {
+          "enable": true,
+          "factor": 0.67777777777777781,
+          "radius": 0.18888888888888888,
+          "threshold": 0.894590744661054
+        },
+        "grain": {
+          "enable": false,
+          "factor": 0.15,
+          "animated": false
+        },
+        "enable": true,
+        "sharpen": {
+          "enable": true,
+          "factor": 0.1388888888888889
+        },
+        "vignette": {
+          "lens": [
+            0.8,
+            0.25
+          ],
+          "enable": false
+        },
+        "toneMapping": {
+          "enable": false,
+          "method": "default",
+          "contrast": 0,
+          "exposure": 1,
+          "brightness": 0,
+          "saturation": 1
+        },
+        "colorBalance": {
+          "low": [
+            0,
+            0,
+            0
+          ],
+          "mid": [
+            0,
+            0,
+            0
+          ],
+          "high": [
+            0,
+            0,
+            0
+          ],
+          "enable": false
+        },
+        "chromaticAberration": {
+          "enable": false,
+          "factor": 0.05
+        }
+      },
+      "sssProfiles": [
+        {
+          "falloff": [
+            1,
+            0.37,
+            0.3
+          ],
+          "strength": [
+            0.48,
+            0.41,
+            0.28
+          ]
+        },
+        {
+          "falloff": [
+            0.5,
+            0.67,
+            0.6
+          ],
+          "strength": [
+            0.38,
+            0.61,
+            0.68
+          ]
+        },
+        {
+          "falloff": [
+            0.7,
+            0.77,
+            0.3
+          ],
+          "strength": [
+            0.88,
+            0.61,
+            0.28
+          ]
+        }
+      ],
+      "nearFarRatio": 0.005
+    },
+    "lighting": {
+      "enable": true,
+      "lights": [
+        {
+          "type": "DIRECTION",
+          "angle": 45,
+          "color": [
+            0.7806122449,
+            0.7985214494,
+            1
+          ],
+          "enable": true,
+          "ground": [
+            0.3,
+            0.2,
+            0.2
+          ],
+          "matrix": [
+            -0.6727147876,
+            -0.0955142765,
+            -0.7337110041,
+            0,
+            -0.5904458415,
+            -0.5283079262,
+            0.6101347747,
+            0,
+            -0.4459019206,
+            0.8436632966,
+            0.299004547,
+            0,
+            2.0097622488,
+            10.0642032887,
+            1.6927431238,
+            1
+          ],
+          "falloff": 0.0112301505,
+          "hardness": 0.5,
+          "intensity": 0.96,
+          "shadowBias": 0.005,
+          "castShadows": false,
+          "intensityGround": 1,
+          "attachedToCamera": true
+        },
+        {
+          "type": "DIRECTION",
+          "angle": 45,
+          "color": [
+            1,
+            0.878331945,
+            0.7091836735
+          ],
+          "enable": true,
+          "ground": [
+            0.3,
+            0.2,
+            0.2
+          ],
+          "matrix": [
+            0.7607270793,
+            -0.6434740564,
+            0.0850614459,
+            0,
+            0.5158495862,
+            0.5198336229,
+            -0.6809348052,
+            0,
+            0.3939460817,
+            0.5618844572,
+            0.7273873394,
+            0,
+            -8.5212977668,
+            5.2177289822,
+            23.6032034806,
+            1
+          ],
+          "falloff": 0.0112301505,
+          "hardness": 0.5,
+          "intensity": 2.62,
+          "shadowBias": 0.005,
+          "castShadows": true,
+          "intensityGround": 1,
+          "attachedToCamera": true
+        },
+        {
+          "type": "HEMI",
+          "angle": 45,
+          "color": [
+            0.4234693878,
+            0.7352665556,
+            1
+          ],
+          "enable": true,
+          "ground": [
+            0.9642857143,
+            0.6484128637,
+            0.2607507289
+          ],
+          "matrix": [
+            -0.2128253624,
+            -0.9654066407,
+            -0.1506498699,
+            0,
+            0.1593240828,
+            0.1178303181,
+            -0.980169298,
+            0,
+            0.9640130714,
+            -0.2326070384,
+            0.1287352474,
+            0,
+            14.3833562459,
+            -3.4705639405,
+            14.4434563527,
+            1
+          ],
+          "falloff": 0.0112301505,
+          "hardness": 0.5,
+          "intensity": 0.12,
+          "shadowBias": 0.005,
+          "castShadows": true,
+          "intensityGround": 0.06,
+          "attachedToCamera": false
+        }
+      ]
+    },
+    "shading": {
+      "type": "lit",
+      "renderer": "classic",
+      "pointSize": 0,
+      "vertexColor": {
+        "enable": false,
+        "useAlpha": false,
+        "colorSpace": "linear"
+      }
+    },
+    "orientation": {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "camera": {
+      "up": 1.5550883635,
+      "down": -1.5550883635,
+      "left": -3.1415926536,
+      "right": 3.1415926536,
+      "target": [
+        0.801267443,
+        0.1337898593,
+        12.4097914599
+      ],
+      "zoomIn": 0,
+      "zoomOut": 373,
+      "position": [
+        -2.1911991751999995,
+        -42.718558604399995,
+        14.4365675878
+      ],
+      "useYawConstraints": false,
+      "useZoomConstraints": false,
+      "usePitchConstraints": false,
+      "useCameraConstraints": false
+    },
+    "wireframe": {
+      "color": "000000FF",
+      "enable": false
+    },
+    "materials": {
+      "updatedAt": 15185530693,
+      "fdaf954b-b5b3-482e-bf7b-395e594b011a": {
+        "id": "fdaf954b-b5b3-482e-bf7b-395e594b011a",
+        "name": "material_0",
+        "version": 3,
+        "channels": {
+          "AOPBR": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": false,
+            "factor": 1,
+            "occludeSpecular": false
+          },
+          "Matcap": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 1,
+            "texture": {
+              "uid": "35c4d334eded44d8a657f390954a32dd",
+              "wrapS": "REPEAT",
+              "wrapT": "REPEAT",
+              "magFilter": "LINEAR",
+              "minFilter": "LINEAR_MIPMAP_LINEAR",
+              "texCoordUnit": 0,
+              "textureTarget": "TEXTURE_2D",
+              "internalFormat": "RGB"
+            },
+            "curvature": 0
+          },
+          "BumpMap": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": false,
+            "factor": 1
+          },
+          "Opacity": {
+            "type": "alphaBlend",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 1,
+            "invert": false
+          },
+          "AlbedoPBR": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 1
+          },
+          "CavityPBR": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": false,
+            "factor": 1
+          },
+          "EmitColor": {
+            "type": "additive",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 0
+          },
+          "NormalMap": {
+            "flipY": true,
+            "enable": true,
+            "factor": 1,
+            "texture": {
+              "uid": "c7cd4606cba346febe218057cc7546db",
+              "wrapS": "REPEAT",
+              "wrapT": "REPEAT",
+              "magFilter": "LINEAR",
+              "minFilter": "LINEAR_MIPMAP_LINEAR",
+              "texCoordUnit": 0,
+              "textureTarget": "TEXTURE_2D",
+              "internalFormat": "RGB"
+            }
+          },
+          "DiffusePBR": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": false,
+            "factor": 1
+          },
+          "SpecularF0": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 0.5
+          },
+          "SpecularPBR": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": false,
+            "factor": 0.05
+          },
+          "DiffuseColor": {
+            "enable": true,
+            "factor": 1,
+            "texture": {
+              "uid": "8bb043c8b4744047b84bd59269d4f412",
+              "wrapS": "REPEAT",
+              "wrapT": "REPEAT",
+              "magFilter": "LINEAR",
+              "minFilter": "LINEAR_MIPMAP_LINEAR",
+              "texCoordUnit": 0,
+              "textureTarget": "TEXTURE_2D",
+              "internalFormat": "RGB"
+            }
+          },
+          "Displacement": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 0
+          },
+          "MetalnessPBR": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 0
+          },
+          "RoughnessPBR": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 0.6
+          },
+          "GlossinessPBR": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": false,
+            "factor": 0.4
+          },
+          "SpecularColor": {
+            "color": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "enable": true,
+            "factor": 0
+          },
+          "DiffuseIntensity": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 1
+          },
+          "SpecularHardness": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 12.5
+          },
+          "SubsurfaceScattering": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": false,
+            "factor": 0.9325180212,
+            "profile": 1
+          },
+          "SubsurfaceTranslucency": {
+            "color": [
+              0.98,
+              0.3,
+              0.2
+            ],
+            "enable": false,
+            "factor": 1,
+            "thicknessFactor": 0.9325180212
+          }
+        },
+        "cullFace": "DISABLE",
+        "shadeless": false,
+        "reflection": 0.1,
+        "stateSetID": 1
+      }
+    },
+    "environment": {
+      "uid": "2fa15e0b1cee45a5b02605a288934e1b",
+      "blur": 0.1,
+      "enable": false,
+      "exposure": 4.063,
+      "rotation": 0.99,
+      "shadowBias": 0.005,
+      "shadowEnable": false,
+      "lightIntensity": 1,
+      "backgroundExposure": 1
+    },
+    "background": {
+      "uid": "51af6a870cce449eb75b0345feebaebb",
+      "color": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "enable": "fixed"
+    },
+    "version": 6,
+    "animation": {
+      "order": [],
+      "speed": 1,
+      "autoplay": false,
+      "cycleMode": "one"
+    },
+    "hotspot": {
+      "visible": false,
+      "hotspots": []
+    },
+    "vr": {
+      "scale": 9.3251802122,
+      "floorHeight": -5.6995000839,
+      "displayFloor": true,
+      "initialCamera": {
+        "position": [
+          1.6689E-06,
+          -22.380429708,
+          -5.6995000839
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    "sound": [],
+    "ground": {},
+    "createdAt": "2018-12-14T15:27:49.374519",
+    "updatedAt": "2019-10-05T13:52:36.653646"
+  },
+  "preferOriginalNormalMap": false,
+  "inStore": true,
+  "isDisabled": false,
+  "displayStatus": "ok",
+  "hasEnterpriseTracking": false,
+  "visibility": "public",
+  "org": null,
+  "isArEnabled": false,
+  "version": {
+    "uid": "edabf35051ba4cd8a6807c80b5bcfe4d",
+    "status": {
+      "warning": {},
+      "processing": "SUCCEEDED"
+    },
+    "isCurrentVersion": true,
+    "isCandidateVersion": false,
+    "createdAt": "2018-12-14T15:27:49.374519",
+    "processedAt": null,
+    "reason": "operation"
+  },
+  "soundCount": 0
+}

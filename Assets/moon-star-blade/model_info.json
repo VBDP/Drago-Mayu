@@ -1,0 +1,281 @@
+{
+  "uid": "4eefbc69a64148a2810dc93eacb6645d",
+  "slug": "moon-star-blade",
+  "user": {
+    "uid": "47de6c47f7ce40aaa1cbfbee2a4fb001",
+    "username": "grasbock",
+    "displayName": "Grasbock",
+    "account": "basic",
+    "profileUrl": "https://sketchfab.com/grasbock",
+    "avatars": {
+      "uid": "1fa788bcc3ab49b8bea165ac02bb6c12",
+      "images": [
+        {
+          "width": 32,
+          "height": 32,
+          "size": 918,
+          "url": "https://media.sketchfab.com/avatars/1fa788bcc3ab49b8bea165ac02bb6c12/8b1286d7bca245a7a108cbed586a42f5.jpeg"
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "size": 1479,
+          "url": "https://media.sketchfab.com/avatars/1fa788bcc3ab49b8bea165ac02bb6c12/6dbdbe2ef14e4c6c8319b939cbaae0df.jpeg"
+        },
+        {
+          "width": 90,
+          "height": 90,
+          "size": 3730,
+          "url": "https://media.sketchfab.com/avatars/1fa788bcc3ab49b8bea165ac02bb6c12/ed9a311f1bae44a381064d258b5f0b92.jpeg"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "size": 4178,
+          "url": "https://media.sketchfab.com/avatars/1fa788bcc3ab49b8bea165ac02bb6c12/50dac5436b4d4a33b5d7370cb683bc92.jpeg"
+        }
+      ]
+    }
+  },
+  "name": "Moon & Star Blade",
+  "description": "Handpainted blade for fantasy games. This is the Moon & Star theme.",
+  "htmlDescription": "<p>Handpainted blade for fantasy games. This is the Moon &amp; Star theme.</p>",
+  "thumbnails": {
+    "uid": "37025e0bf5c945d9b1d49c3b4616d00c",
+    "images": [
+      {
+        "uid": "b6e1572fbf6d46dfbb4b3e8bfa3dc1b8",
+        "width": 1920,
+        "height": 1080,
+        "size": 111704,
+        "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/thumbnails/37025e0bf5c945d9b1d49c3b4616d00c/29ba7cf393ce4b2b9952fd0f0410be68.jpeg"
+      },
+      {
+        "uid": "f52a61529aa149f9896d1aadfd9e6a7b",
+        "width": 1024,
+        "height": 576,
+        "size": 25314,
+        "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/thumbnails/37025e0bf5c945d9b1d49c3b4616d00c/04201a269774488d862f9d8905b9ab2e.jpeg"
+      },
+      {
+        "uid": "ec1956800539477aa05850f2391fd859",
+        "width": 720,
+        "height": 405,
+        "size": 13374,
+        "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/thumbnails/37025e0bf5c945d9b1d49c3b4616d00c/126ba33eae6e424a84d2c28512b9f431.jpeg"
+      },
+      {
+        "uid": "4a79d083723a44c48e633034bf904700",
+        "width": 256,
+        "height": 144,
+        "size": 2818,
+        "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/thumbnails/37025e0bf5c945d9b1d49c3b4616d00c/82607a446a044824ab30a8ea3885e1da.jpeg"
+      },
+      {
+        "uid": "4dbe68e7c953429ab6d7c44c6ccba0ea",
+        "width": 64,
+        "height": 36,
+        "size": 708,
+        "url": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/thumbnails/37025e0bf5c945d9b1d49c3b4616d00c/a7beae104a37448d9f12c50baf1b6704.jpeg"
+      }
+    ]
+  },
+  "vertexCount": 445,
+  "faceCount": 886,
+  "viewCount": 400,
+  "likeCount": 6,
+  "animationCount": 0,
+  "staffpickedAt": null,
+  "publishedAt": "2015-09-02T22:24:51",
+  "createdAt": "2015-09-02T22:20:24",
+  "tags": [
+    "moon",
+    "and",
+    "melee",
+    "star",
+    "dragonica",
+    "handpainted",
+    "lowpoly",
+    "sword",
+    "fantasy",
+    "blade"
+  ],
+  "orgTags": [],
+  "categories": [
+    {
+      "uid": "3badf36bd9f549bdba295334d75e04d3",
+      "name": "Weapons & Military",
+      "slug": "weapons-military"
+    }
+  ],
+  "license": {
+    "uid": "783b685da9bf457d81e829fa283f3567",
+    "label": "Standard",
+    "fullname": "Standard",
+    "slug": "st",
+    "summary": "Standard",
+    "requirements": "Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works",
+    "url": "https://sketchfab.com/licenses",
+    "free": false,
+    "needsAttribution": false,
+    "ccClauses": null
+  },
+  "isStoreLicenseLocked": false,
+  "viewerUrl": "https://sketchfab.com/3d-models/moon-star-blade-4eefbc69a64148a2810dc93eacb6645d",
+  "embedUrl": "https://sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/embed",
+  "editorUrl": "https://sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edit",
+  "reviewUrl": "https://sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/review",
+  "publicCommentCount": 0,
+  "orgCommentCount": 0,
+  "isDownloadable": false,
+  "downloadType": "store",
+  "isInspectable": true,
+  "downloadCount": 3,
+  "status": {
+    "warning": {},
+    "processing": "SUCCEEDED"
+  },
+  "isPublished": true,
+  "originalFileName": "MoonAndStarBlade.obj",
+  "processingStatus": 2,
+  "archiveSize": 41696,
+  "ext": "obj",
+  "isDeleted": false,
+  "isRestricted": false,
+  "processedAt": "2018-02-13T20:00:35.38414",
+  "files": [
+    {
+      "uid": "4219caeab2614a21bc853dd6ad4044e9",
+      "flag": 0,
+      "osgjsUrl": "https://media.sketchfab.com/models/4eefbc69a64148a2810dc93eacb6645d/edabf35051ba4cd8a6807c80b5bcfe4d/files/4219caeab2614a21bc853dd6ad4044e9/file.binz",
+      "modelSize": 9972,
+      "osgjsSize": 1248,
+      "wireframeSize": 2977,
+      "p": [
+        {
+          "v": 1,
+          "b": "Wzxak823IKvQX3woJ+RkZhXCts4blwmRrbAtDEiJMThBe3tqL0rcZ47Jywu2Wrg9vSOQ8AjcZLyo\nWIDHDJsFRKobWpPYfttSppRSOQA2ADwAXqYcw0VPedMmq4POdJKfa0SPhPd1NqVk7ZQh+tqpZfpw\nNr2Q+yygG2kHId/CGUe+QHaRPcuHy+QDn4FfVlenWMq1Rl/K0VY+nLvLzxxswQ+swL0p6xF2NqLj\nE9Bbjepxp1blqs/rbMrk59XFOSlKsJnDxcNmr4pulyY0pZiXLRT7ly0k0ggvzl0AE3MJZsmIMy38\niIu5nJKbeiP5TS1HLy4Ew+pDEPThPAgKvAWYQMfNtMw2ZJbXILOaS0EwpaabVTpmbg4AekwnCXrT\njk75+co13cvqUCTR7VGk0IaHYg4IICjgJBhJenDk1Eq1ZkPCuSgSViCI8dc55TaZDMY4IB4SNZ5U\nKxfhsH3g8LL2jx1h1PNQhB2hukQ9UikvzdgYKAJWReEB",
+          "d": true
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "quad": 380,
+    "triangle": 126,
+    "polygon": 0,
+    "line": 0,
+    "point": 0,
+    "totalTriangle": 886,
+    "vertexCount": 445,
+    "hasNormal": false,
+    "hasTangent": false,
+    "hasVertexColor": false,
+    "pbrType": null,
+    "textureCount": 2,
+    "materialCount": 1,
+    "isRigged": false,
+    "morph": 0,
+    "scale": false,
+    "animation": 0,
+    "uvMapped": true,
+    "sourceFiles": {
+      "3d": [
+        {
+          "version": "",
+          "filepath": "source/MoonAndStarBlade.obj.obj",
+          "filesize": 41696,
+          "extension": "obj",
+          "fileformat": "OBJ"
+        }
+      ],
+      "misc": [],
+      "count": 1,
+      "image": []
+    },
+    "textureFiles": [
+      {
+        "width": 512,
+        "format": "RGB",
+        "height": 512,
+        "is8bit": true,
+        "filepath": "textures/MoonAndStarBlade_Colour.jpg",
+        "filesize": 143908,
+        "extension": "jpg",
+        "fileformat": "JPEG"
+      },
+      {
+        "width": 512,
+        "format": "RGBA",
+        "height": 512,
+        "is8bit": true,
+        "filepath": "textures/MoonAndStarBlade_normals.png",
+        "filesize": 231065,
+        "extension": "png",
+        "fileformat": "Portable Network Graphics"
+      }
+    ]
+  },
+  "price": 399,
+  "inStore": true,
+  "averageRating": 0.0,
+  "reviewCount": 0,
+  "preferOriginalNormalMap": false,
+  "isDisabled": false,
+  "exporter": null,
+  "displayStatus": "ok",
+  "version": {
+    "uid": "edabf35051ba4cd8a6807c80b5bcfe4d",
+    "status": {
+      "warning": {},
+      "processing": "SUCCEEDED"
+    },
+    "isCurrentVersion": true,
+    "isCandidateVersion": false,
+    "createdAt": "2018-12-14T15:27:49.374519",
+    "processedAt": null,
+    "reason": "operation"
+  },
+  "hasEnterpriseTracking": false,
+  "visibility": "public",
+  "org": null,
+  "isArEnabled": false,
+  "isArAvailable": false,
+  "archivesStatus": [
+    {
+      "type": "source",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "gltf",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "extra",
+      "exists": false,
+      "status": null
+    },
+    {
+      "type": "usdz",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "gltf-ar",
+      "exists": false,
+      "status": null
+    },
+    {
+      "type": "uasset",
+      "exists": false,
+      "status": null
+    },
+    {
+      "type": "glb",
+      "exists": false,
+      "status": null
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+// Generated using SketchfabRipper v1.18.0 by revetix#9971
+
+Mesh "3" uses material "material_0" and has UniqueID "3"
+
+Material "material_0" has ID fdaf954b-b5b3-482e-bf7b-395e594b011a.
+	Emission: 0|0|0
+	Normal (Flipped Y) (UV0): MoonAndStarBlade_normals.png
+	Specular F0: 0.5
+	Diffuse colour (UV0): MoonAndStarBlade_Colour.jpg
+	Displacement: 0
+	Metalness: 0
+	Roughness: 0.6
+	Specular colour: 0.5|0.5|0.5
+	Diffuse intensity: 1|1|1
+	Specular hardness: 1|1|1

@@ -462,6 +462,267 @@ RectTransform:
   m_AnchoredPosition: {x: -5.049, y: 1.924}
   m_SizeDelta: {x: 28.2736, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &813877929
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1196789982}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f79f808687a16164d809cb9ff126d4fa,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f79f808687a16164d809cb9ff126d4fa,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f79f808687a16164d809cb9ff126d4fa,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f79f808687a16164d809cb9ff126d4fa,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.543
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f79f808687a16164d809cb9ff126d4fa,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.623
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f79f808687a16164d809cb9ff126d4fa,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.286
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f79f808687a16164d809cb9ff126d4fa,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.2658584
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f79f808687a16164d809cb9ff126d4fa,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.2658584
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f79f808687a16164d809cb9ff126d4fa,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6552247
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f79f808687a16164d809cb9ff126d4fa,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6552247
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f79f808687a16164d809cb9ff126d4fa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 45.83
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f79f808687a16164d809cb9ff126d4fa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f79f808687a16164d809cb9ff126d4fa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f79f808687a16164d809cb9ff126d4fa,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9ddf40f62f46a4c42a6cc3845b3ca4e5, type: 2}
+    - target: {fileID: 919132149155446097, guid: f79f808687a16164d809cb9ff126d4fa,
+        type: 3}
+      propertyPath: m_Name
+      value: moon-star-blade
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f79f808687a16164d809cb9ff126d4fa,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 813877932}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f79f808687a16164d809cb9ff126d4fa,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 813877933}
+  m_SourcePrefab: {fileID: 100100000, guid: f79f808687a16164d809cb9ff126d4fa, type: 3}
+--- !u!4 &813877930 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f79f808687a16164d809cb9ff126d4fa,
+    type: 3}
+  m_PrefabInstance: {fileID: 813877929}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &813877931 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f79f808687a16164d809cb9ff126d4fa,
+    type: 3}
+  m_PrefabInstance: {fileID: 813877929}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &813877932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813877931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1228.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 2474337223760150594
+  references:
+    version: 2
+    RefIds:
+    - rid: 2474337223760150594
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 7
+        propBone: {fileID: 813877931}
+        linkTo:
+        - useBone: 1
+          bone: 7
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        removeBoneSuffix: 
+        removeParentConstraints: 1
+        forceMergedName: 
+        forceOneWorldScale: 0
+        recursive: 0
+        alignPosition: 0
+        alignRotation: 0
+        alignScale: 0
+        autoScaleFactor: 1
+        scalingFactorPowersOf10Only: 1
+        skinRewriteScalingFactor: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
+        keepBoneOffsets2: 0
+        linkMode: 4
+--- !u!114 &813877933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813877931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1228.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 2474337223760150622
+  references:
+    version: 2
+    RefIds:
+    - rid: 2474337223760150622
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Items/Blade
+        state:
+          actions:
+          - rid: 2474337223760150623
+          - rid: 2474337223760150624
+        saved: 1
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 2474337223760150623
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 813877931}
+        mode: 0
+    - rid: 2474337223760150624
+      type: {class: AnimationClipAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 0
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        clip:
+          version: 1
+          fileID: 0
+          guid: 
+          id: be02deb3767c95145bcd4857c5627ef3|Assets/SwordIdle.anim
+          objRef: {fileID: 7400000, guid: be02deb3767c95145bcd4857c5627ef3, type: 2}
 --- !u!1001 &1196789979
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -490,6 +751,21 @@ PrefabInstance:
       propertyPath: fallbackStatus
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1826486564211088899, guid: cf77adb68e62e1d4abf3da10295d6fa3,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537507831115913014, guid: cf77adb68e62e1d4abf3da10295d6fa3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00055097975
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537507831115913014, guid: cf77adb68e62e1d4abf3da10295d6fa3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.09724474
+      objectReference: {fileID: 0}
     - target: {fileID: 2606955265396883629, guid: cf77adb68e62e1d4abf3da10295d6fa3,
         type: 3}
       propertyPath: m_IsActive
@@ -509,6 +785,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mayu Drago PC Furality Somna
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292248730602848641, guid: cf77adb68e62e1d4abf3da10295d6fa3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00055097975
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292248730602848641, guid: cf77adb68e62e1d4abf3da10295d6fa3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.09724474
       objectReference: {fileID: 0}
     - target: {fileID: 5744577783526229113, guid: cf77adb68e62e1d4abf3da10295d6fa3,
         type: 3}
@@ -841,6 +1127,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1692441910}
+    - targetCorrespondingSourceObject: {fileID: 5744577783526229113, guid: cf77adb68e62e1d4abf3da10295d6fa3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 813877930}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4968323207378427587, guid: cf77adb68e62e1d4abf3da10295d6fa3,
         type: 3}
