@@ -555,6 +555,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BadgeAttendee
       objectReference: {fileID: 0}
+    - target: {fileID: 6423326976489611137, guid: d3deeca1af99a2a419c5f2e4061b2b99,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -594,7 +599,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1228.0
+  vrcfuryVersion: 1.1230.0
   somethingIsBroken: 0
   config:
     features: []
@@ -648,7 +653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1228.0
+  vrcfuryVersion: 1.1230.0
   somethingIsBroken: 0
   config:
     features: []
@@ -981,6 +986,11 @@ PrefabInstance:
         type: 3}
       propertyPath: animationHashSet.Array.data[46].name
       value: PawPrintsRightON
+      objectReference: {fileID: 0}
+    - target: {fileID: 5453357588171289073, guid: 541e9dc0f448e0b479f993259a607c9f,
+        type: 3}
+      propertyPath: blueprintId
+      value: avtr_07f598a0-b602-4333-9929-c2dbc11fca41
       objectReference: {fileID: 0}
     - target: {fileID: 5453357588171289073, guid: 541e9dc0f448e0b479f993259a607c9f,
         type: 3}
