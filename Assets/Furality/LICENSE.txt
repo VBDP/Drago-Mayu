@@ -1,6 +1,6 @@
-Copyright 2024 Furality, Inc.
+Copyright 2022 Furality, Inc.
 
-Licensed under the Furality, Inc. Asset License Version 1.4 (the "License");
+Licensed under the Furality, Inc. Asset License Version 1.0 (the "License");
 you may not use these asset files except in compliance with the License.
 You may obtain a copy of the License at
 
@@ -14,7 +14,7 @@ limitations under the License.
 
 -------
 
-Furality, Inc. Asset License Version 1.4
+Furality, Inc. Asset License Version 1.0
 =======================================
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
@@ -27,22 +27,21 @@ How can I use licensed content?
     Notwithstanding use restrictions (see Restricted Uses below) and the rest of the terms of this agreement,
     the usage rights granted to you by Furality, Inc. for each asset type are:
 
-    Furality Aqua Shader / Furality Legendary Shader / Furality Luma Shader / Furality Sylva Shader / Furality Umbra Shader
+    Furality Aqua Shader / Furality Legendary Shader / Furality Luma Shader
     - You can use this asset for commercial use.
     - You can use this asset for personal use.
     - You can use this asset in public and/or private avatars uploaded to VRChat.
     - You can not share the files alone with any other person.
     - You can however repack and distribute the shader package with avatars and avatar accessories that use it.
     - You must attribute the use of the shader in the description of any avatars or avatar accessories published for
-        download with: "This project includes and uses the Furality [Aqua/Legendary/Luma/Sylva/Umbra] Shader by Furality, Inc. (https://furality.org) with permission." 
-        (chose the appropriate name for the shader used in the [] for the above attribution)
+        download with: "This project includes and uses the Furality [Aqua/Legendary/Luma] Shader by Furality, Inc. (https://furality.org) with permission."
     - You can not combine the files into another shader or tool.
     - You can not modify the shader files (other than settings defined in properties UI).
     - You can not hack, reverse engineer, decompile, disassemble, modify or create derivative works of the shader code or
         any part of the shader code.
 
 
-    Furality Aqua Runes / Furality Luma Flow / Furality Aqua Substance Painter Tools / Furality Luma Runes / Furality Sylva Substance Painter Tools / Furality Umbra Substance Painter Tools
+    Furality Aqua Runes / Furality Luma Flow / Furality Aqua Substance Painter Tools / Furality Luma Runes
     - You can use this asset for commercial use.
     - You can use this asset for personal use.
     - You can modify this asset.
@@ -62,21 +61,10 @@ How can I use licensed content?
         for download with: "This project includes and uses the Furality Aqua Fins by Furality, Inc. (https://furality.org) with permission."
 
 
-    Furality Badges / Furality BadgeMaker / Furality Online Xperience Asset Packs (First Class / Sponsor Registration Perk)
+    Furality Online Xperience Asset Packs (First Class / Sponsor Registration Perk)
     - You can use this asset for personal use only.
     - You can modify this asset.
     - You can use this asset in public and/or private avatars uploaded to VRChat on your own account.
-    - You can not add these assets to other's avatars if they do not own a copy.
-    - You can not use this asset for commercial use.
-        However, recording/streaming video of avatars with this asset is permitted even if commercial in nature.
-    - You can not share the files with any other person.
-    - You can not repack and distribute the files with other projects.
-
-
-    Furality Supporter Assets (Discord/Patreon Subscription Rewards)
-    - You can use this asset for personal use only.
-    - You can modify this asset.
-    - You can use this asset in private avatars uploaded to VRChat on your own account.
     - You can not add these assets to other's avatars if they do not own a copy.
     - You can not use this asset for commercial use.
         However, recording/streaming video of avatars with this asset is permitted even if commercial in nature.
