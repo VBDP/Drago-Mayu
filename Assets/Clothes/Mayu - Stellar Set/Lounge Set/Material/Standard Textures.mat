@@ -29,7 +29,7 @@ Material:
     AllLockedGUIDS: 3c65afc29bea17e4fba6c2fcadb616b7
     OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT COLOR_GRADING_HDR MOCHIE_PBR VIGNETTE_MASKED
       _LIGHTINGMODE_CLOTH _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
-    OriginalShader: .poiyomi/Old Versions/9.1/Poiyomi Toon
+    OriginalShader: .poiyomi/Poiyomi Toon
     OriginalShaderGUID: cef5dc16b30fdbb46b08ab424d41d1c0
     RenderType: TransparentCutout
     _MainHueShiftAnimated: 1

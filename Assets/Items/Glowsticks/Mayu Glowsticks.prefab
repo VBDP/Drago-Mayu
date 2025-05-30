@@ -120,7 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1228.0
+  vrcfuryVersion: 1.1230.0
   somethingIsBroken: 0
   config:
     features: []
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1228.0
+  vrcfuryVersion: 1.1230.0
   somethingIsBroken: 0
   config:
     features: []
@@ -192,7 +192,7 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: f6d0c41f796ed36408102c1da520eaff|Assets/Glowsticks/Animations/FX
+            id: f6d0c41f796ed36408102c1da520eaff|Assets/Items/Glowsticks/Animations/FX
               - Glowsticks.controller
             objRef: {fileID: 9100000, guid: f6d0c41f796ed36408102c1da520eaff, type: 2}
           type: 5
@@ -201,8 +201,8 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: d77f166812187c6459127726ac6aa846|Assets/Glowsticks/Animations/M -
-              Glowsticks - Root.asset
+            id: d77f166812187c6459127726ac6aa846|Assets/Items/Glowsticks/Animations/M
+              - Glowsticks - Root.asset
             objRef: {fileID: 11400000, guid: d77f166812187c6459127726ac6aa846, type: 2}
           prefix: Clothes/Glowsticks
         prms:
@@ -210,8 +210,8 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: b6cc74077df42df4d8ac003ffaeb6149|Assets/Glowsticks/Animations/P -
-              Glowsticks.asset
+            id: b6cc74077df42df4d8ac003ffaeb6149|Assets/Items/Glowsticks/Animations/P
+              - Glowsticks.asset
             objRef: {fileID: 11400000, guid: b6cc74077df42df4d8ac003ffaeb6149, type: 2}
         smoothedPrms: []
         globalParams: []
@@ -260,7 +260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1228.0
+  vrcfuryVersion: 1.1230.0
   somethingIsBroken: 0
   config:
     features: []
@@ -278,7 +278,7 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: f6aef4ab24660624692416d73d6d3601|Assets/Glowsticks/Icons/GS-MainMenu.png
+          id: f6aef4ab24660624692416d73d6d3601|Assets/Items/Glowsticks/Icons/GS-MainMenu.png
           objRef: {fileID: 2800000, guid: f6aef4ab24660624692416d73d6d3601, type: 3}
 --- !u!1 &8390841006270715584 stripped
 GameObject:

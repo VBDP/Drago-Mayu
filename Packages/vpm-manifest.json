@@ -33,12 +33,6 @@
     "jp.lilxyzw.liltoon": {
       "version": "1.10.3"
     },
-    "com.furality.sylvashader": {
-      "version": "1.3.3"
-    },
-    "com.furality.umbrashader": {
-      "version": "1.6.0"
-    },
     "com.llealloo.audiolink": {
       "version": "2.1.0"
     },
@@ -118,18 +112,6 @@
     "jp.lilxyzw.liltoon": {
       "version": "1.10.3",
       "dependencies": {}
-    },
-    "com.furality.sylvashader": {
-      "version": "1.3.3",
-      "dependencies": {
-        "com.llealloo.audiolink": "1.3.0"
-      }
-    },
-    "com.furality.umbrashader": {
-      "version": "1.6.0",
-      "dependencies": {
-        "com.llealloo.audiolink": "1.3.0"
-      }
     },
     "com.llealloo.audiolink": {
       "version": "2.1.0",

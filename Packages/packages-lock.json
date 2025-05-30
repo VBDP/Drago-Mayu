@@ -18,18 +18,6 @@
       "source": "embedded",
       "dependencies": {}
     },
-    "com.furality.sylvashader": {
-      "version": "file:com.furality.sylvashader",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
-    "com.furality.umbrashader": {
-      "version": "file:com.furality.umbrashader",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "com.github.kurotu.vrc-quest-tools": {
       "version": "file:com.github.kurotu.vrc-quest-tools",
       "depth": 0,
