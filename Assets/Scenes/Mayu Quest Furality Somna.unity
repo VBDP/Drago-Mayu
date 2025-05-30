@@ -5407,8 +5407,8 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 683c23c22af461c4ea2bd6eec67e04dc|Assets/AzukiTiger/VRC Mayu GoGoLoco/GoLocoBase
-              Mayu.controller
+            id: 683c23c22af461c4ea2bd6eec67e04dc|Assets/AzukiTiger/VRC Mayu Avatar
+              Bundle/VRC Mayu GoGoLoco/GoLocoBase Mayu.controller
             objRef: {fileID: 9100000, guid: 683c23c22af461c4ea2bd6eec67e04dc, type: 2}
           type: 0
         - controller:
@@ -5458,8 +5458,8 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 162a302d400799d44b42de883aca93aa|Assets/AzukiTiger/VRC Mayu GoGoLoco/Locomotion
-              Mayu.asset
+            id: 162a302d400799d44b42de883aca93aa|Assets/AzukiTiger/VRC Mayu Avatar
+              Bundle/VRC Mayu GoGoLoco/Locomotion Mayu.asset
             objRef: {fileID: 11400000, guid: 162a302d400799d44b42de883aca93aa, type: 2}
           prefix: Body Controls/Locomotion
         prms:
@@ -5467,8 +5467,8 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 9cafe6fc85edd0940b056ef9a9f1524c|Assets/AzukiTiger/VRC Mayu GoGoLoco/GoAllParameters
-              Mayu.asset
+            id: 9cafe6fc85edd0940b056ef9a9f1524c|Assets/AzukiTiger/VRC Mayu Avatar
+              Bundle/VRC Mayu GoGoLoco/GoAllParameters Mayu.asset
             objRef: {fileID: 11400000, guid: 9cafe6fc85edd0940b056ef9a9f1524c, type: 2}
         smoothedPrms: []
         globalParams:
@@ -9184,7 +9184,8 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: aa27c4760e38d5e40b4ec52aa1b6d991|Assets/AzukiTiger/VRC Mayu Avatar/Icons/Gogo.png
+          id: aa27c4760e38d5e40b4ec52aa1b6d991|Assets/AzukiTiger/VRC Mayu Avatar
+            Bundle/VRC Mayu Avatar/Icons/Gogo.png
           objRef: {fileID: 2800000, guid: aa27c4760e38d5e40b4ec52aa1b6d991, type: 3}
 --- !u!1 &6239377929723417415
 GameObject:
@@ -11197,7 +11198,8 @@ MonoBehaviour:
           version: 1
           fileID: 0
           guid: 
-          id: 05e528a037ca2354ebdf0733803a992f|Assets/AzukiTiger/VRC Mayu Avatar/Icons/Cat.png
+          id: 05e528a037ca2354ebdf0733803a992f|Assets/AzukiTiger/VRC Mayu Avatar
+            Bundle/VRC Mayu Avatar/Icons/Cat.png
           objRef: {fileID: 2800000, guid: 05e528a037ca2354ebdf0733803a992f, type: 3}
         enableDriveGlobalParam: 0
         driveGlobalParam: 
