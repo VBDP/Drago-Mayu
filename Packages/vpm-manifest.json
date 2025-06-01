@@ -21,9 +21,6 @@
     "gogoloco": {
       "version": "1.8.6"
     },
-    "com.poiyomi.toon": {
-      "version": "9.2.41"
-    },
     "dev.jetees.memoryoptimizer": {
       "version": "0.1.18"
     },
@@ -39,14 +36,17 @@
     "adjerry91.vrcft.templates": {
       "version": "6.8.0"
     },
-    "com.github.kurotu.vrc-quest-tools": {
-      "version": "2.10.0-beta.5"
-    },
     "com.vrcfury.vrcfury": {
       "version": "1.1230.0"
     },
     "com.furality.somnashader": {
       "version": "1.0.6"
+    },
+    "com.github.kurotu.vrc-quest-tools": {
+      "version": "2.10.0"
+    },
+    "com.poiyomi.toon": {
+      "version": "9.2.43"
     }
   },
   "locked": {
@@ -88,10 +88,6 @@
         "com.vrchat.avatars": ">=3.2.2"
       }
     },
-    "com.poiyomi.toon": {
-      "version": "9.2.41",
-      "dependencies": {}
-    },
     "dev.jetees.memoryoptimizer": {
       "version": "0.1.18",
       "dependencies": {
@@ -121,12 +117,6 @@
       "version": "6.8.0",
       "dependencies": {}
     },
-    "com.github.kurotu.vrc-quest-tools": {
-      "version": "2.10.0-beta.5",
-      "dependencies": {
-        "com.vrchat.avatars": "^3.3.0"
-      }
-    },
     "com.vrcfury.vrcfury": {
       "version": "1.1230.0",
       "dependencies": {}
@@ -136,6 +126,16 @@
       "dependencies": {
         "com.llealloo.audiolink": "2.x.x"
       }
+    },
+    "com.github.kurotu.vrc-quest-tools": {
+      "version": "2.10.0",
+      "dependencies": {
+        "com.vrchat.avatars": "^3.3.0"
+      }
+    },
+    "com.poiyomi.toon": {
+      "version": "9.2.43",
+      "dependencies": {}
     }
   }
 }
