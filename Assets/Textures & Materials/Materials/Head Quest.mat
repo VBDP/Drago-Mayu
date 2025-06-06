@@ -169,7 +169,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b97b78a6c54faaa49a14df55d3149a11, type: 3}
+        m_Texture: {fileID: 2800000, guid: bd41e334111cf79448af2ef8c84039a1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatCap2ndBlendMask:

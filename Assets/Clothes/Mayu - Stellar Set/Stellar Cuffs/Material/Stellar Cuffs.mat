@@ -402,6 +402,7 @@ Material:
     - _AlphaChReactiveRadialCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _AlphaChReactiveTint: {r: 1, g: 1, b: 1, a: 0}
     - _AnimatedOffsetDirectionalMap: {r: 0, g: 0, b: 0, a: 0}
+    - _AnimatedOffsetEmissionMask: {r: 0, g: 0, b: 0, a: 0}
     - _AnimatedOffsetEmssion: {r: 0, g: 0, b: 0, a: 0}
     - _AnimatedOffsetMainTex: {r: 0, g: 0, b: 0, a: 0}
     - _AnimatedOffsetMaskMap01: {r: 0, g: 0, b: 0, a: 0}
