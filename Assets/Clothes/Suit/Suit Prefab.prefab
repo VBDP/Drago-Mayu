@@ -522,9 +522,9 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: c19df1a8f84b31f41bd5e44a353da304|Assets/AzukiTiger/VRC Mayu Avatar/Animation/Toggles/Female
-              Controller.controller
-            objRef: {fileID: 9100000, guid: c19df1a8f84b31f41bd5e44a353da304, type: 2}
+            id: 46c5fd36db257bf43b5bcd1189145448|Assets/AzukiTiger/VRC Mayu Avatar
+              Bundle/VRC Mayu Avatar/Animations/Toggles/Female Controller.controller
+            objRef: {fileID: 9100000, guid: 46c5fd36db257bf43b5bcd1189145448, type: 2}
           type: 5
         menus: []
         prms: []
