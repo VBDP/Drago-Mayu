@@ -1,0 +1,15 @@
+Thank you for purchasing this cigarette asset <3 - Garn Servo
+Please do not forget to rate the purchase on Gumroad, it really helps!
+If you did not buy it...shame on you >:(   - here's the link: https://www.garnservo.co/l/GarnCigarette 
+
+-----------------------------------------------
+
+First ensure you have the latest VRChat Avatars 3.0 SDK, Poiyomi Pro (or Toon), Lyuma Emulator, and Avatars 3.0 Manager installed. All are linked on the store page.
+If you do not have Poiyomi Pro, there is a Toon material provided in Assets/GarnCigarette/Mat+Tex. Plus if you are using a Booth-style model, there is a material preset to better suit the style.
+
+Go to Assets/GarnCigarette/Prefabs and choose the prefab that fits your needs.
+• '1-Handed Full System' is V1 of the system. It only supports 1 hand, and is Write Defaults On. But is a slightly smaller file size (less menu icons) and an easier installation.
+• 'Full System' is V2 of the system. It supports both hands as well mouth placement, cigarette following mouth movement when speaking, a throwable cigarette butt, and is Write Defaults Off. But has a slightly larger file size impact (due to menu icons) and is a bit more of a difficult installation.
+If you have space in your parameter memory and have a bit more Unity knowledge, I highly suggest you use 'Full System'.
+
+Instructions for installation of each system are in the respective prefab folders.

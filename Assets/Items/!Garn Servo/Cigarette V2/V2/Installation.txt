@@ -1,0 +1,57 @@
+Information about the Full System:
+• This version is Write Defaults OFF. It can be set to write defaults on...but there are minor issues with state retention.
+• This is V2 of the system; this was a complete rework, and boasts a myriad of new features and refinements.
+
+Installation Video for this Prefab: https://youtu.be/fd1AtQd39mY
+
+Instructions for the Full System:
+0. Make sure your avatar is in T-pose before starting installation. If needed, use Pumpkin Avatar Tools to set to T-pose.
+1. Drop the Cigarette Container.prefab under in the world in the hierarchy (should be between world origin). Then move it in the hierarchy to be under your avatar. Zero it's transform position so it appears at your avatar's feet.
+2. Unpack the prefab and move CigRHIndexF, CigRHMiddleF, CigLHIndexF, CigLHMiddleF, CigMouthTopLip, and CigMouthBotLip out from Cigarette Container (should be same level as Cigarette Container).
+3. In your scene, position CigRHIndexF in the middle of your right hand index finger (between the 2 knuckles), and do the same for CigRHMiddleF but on the middle finger.
+3.1. Repeat Step 3 with the left hand (CigLHIndexF, CigLHMiddleF).
+3.2. Repeat Step 3 with the mouth (CigMouthTopLip, CigMouthBotLip), placing them in the desired location on the mouth (horizontally) but centered vertically in each respective lip.
+4. Extend your avatar's armature out in hierarchy to place CigRHIndexF under the 2nd bone of the RH Index finger, and repeat the same for CigRHMiddleF with the middle finger.
+4.1. Repeat Step 4 with the left hand.
+4.2. Repeat Step 4 with the mouth, placing them on the head bone.
+5. Prior to Step 6, set the top 2 sources of the parent constraint in 'Cigarette Container' to 1.
+6. Zero the parent constraint in CigaretteContainer, then reset the top 2 sources to 0.
+6.5 Make any minor adjustments to CigRHIndexF and CigRHMiddleF to remove clipping. Scaling of the container may be needed depending on the scale of the avatar - if you scale the container, make sure to scale the particles under 'CigaretteWithHolder'.
+
+7. Using AV3Manager, merge 'CigFX (Merge)' with your existing FX layer. Ensure the tick boxes next to the newly added parameters here are ticked as synced.
+8. In AV3Manager, switch to the Parameters tab and copy parameter values from 'CigParameters' to your existing Parameters.
+9. In your main menu, create a new sub-menu pointing to 'CigMenu'
+Ensure the FX Layer, Parameters, and Menu all come from the 'Assets/GarnCigarette/Prefabs/Full System' folder.
+
+10. Test the system with Lyuma's AV3.0 Emulator.
+
+
+All should work well, but there may be some slight issues with the ring holder animation.
+To fix these:
+1. Select your avatar and temporarily change the animator controller to 'Cigarette'
+2. In the Animation window, select the CigRingHolder animation and begin recording.
+3. Reposition CigaretteWithHolder to the desired location.
+4. Repeat steps 2-3 with the CigRingHolderSmokingActive animation.
+5. Repeat steps 2-4 with the left hand.
+5. Return the animator controller of your avatar to what it previously was.
+
+6. Test the system with Lyuma's AV3.0 Emulator.
+
+
+There may also be issues when it comes to the new mouth movement and its positioning (symptoms of which are the cigarette not being the correct spot on the head).
+To fix this:
+1. Enter play mode with Lyuma Emulator active
+2. Drag the 'Cigarette Full System' animator controller located in 'Assets/GarnCigarette/Prefabs/Full System/Anims' onto your avatar in the hierarchy (or in the animator controller in the inspector)
+3. In the Animation tab, select '!CigMM_Default' hit record and move CigMouthTopLip and CigMouthBotLip to the desired positions. (By default, they are centred in the mouth). Copy the new keyframes to the second frame.
+5. Select the 'CigMM_???' that matches the currently displayed Viseme in the Lyuma controller of your avatar. Paste again (should still have the default keyframes selected) and then move CigMouthTopLip and CigMouthBotLip to the desired positions.
+6. Repeat Step 5 for all of the Visemes by moving through the Visemes in Lyuma, and editing the relevant 'CigMM_???' animation.
+7. With Lyuma still running, toggle on the Cigarette, set position to mouth, and test by sliding the Viseme slider in Lyuma.
+• You can also reposition CigMouthTopLip and CigMouthBotLip rotationally without it affecting the 'CigMM_???' animations. The rotation was intentionally left unanimated for this purpose.
+
+Finally, prior to uploading the avatar, disable the CigaretteWithHolder object (making sure to leave Cigarette Container enabled).
+
+-----------------------------------------------
+
+If there are any issues with your face animations breaking (freezing and/or retaining previous position), that is due to this system being built with Write Defaults Off (same issue many have with Cam's Throwjoint system, for example)
+To fix this, follow the steps in this video:
+https://www.youtube.com/watch?v=Eiu7jMC7mgg

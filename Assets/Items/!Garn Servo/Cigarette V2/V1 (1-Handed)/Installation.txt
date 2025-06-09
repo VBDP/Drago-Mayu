@@ -1,0 +1,38 @@
+Information about the 1-handed system:
+• This version is Write Defaults ON (although nodes in theFX layer can be set to WD OFF with no issue)
+• This was V1 of the system, and remains here mostly for the option to have less parameter memory being used, as well as an easier installation process.
+
+Installation Video for this Prefab: https://youtu.be/fZ9q11oatI4
+
+Instructions for the 1-handed version of the system:
+0. Make sure your avatar is in T-pose before starting installation. If needed, use Pumpkin Avatar Tools to set to T-pose
+1. Drop the Cigarette Container.prefab under in the world in the hierarchy (should be between world origin). Then move it in the hierarchy to be under your avatar. Zero it's transform position so it appears at your avatar's feet.
+2. Unpack the prefab and move CigRHIndexF and CigRHMiddleF out from Cigarette Container (should be same level as Cigarette Container).
+3. Position CigRHIndexF in the middle of your right hand index finger (between the 2 knuckles), and do the same for CigRHMiddleF but on the middle finger.
+4. Extend your avatar's armature out in hierarchy to place CigRHIndexF under the 2nd bone of the RH Index finger, and repeat the same for CigRHMiddleF with the middle finger.
+5. Zero then activate the parent constraint in CigaretteContainer, and move CigaretteWithHolder down until the tip extends below fingers
+5.5 Make any minor adjustments to CigRHIndexF and CigRHMiddleF to remove clipping. Scaling of the container may be needed depending on the scale of the avatar.
+
+6. Using AV3Manager, merge 'CigFX (Merge)' with your existing FX layer. Ensure the tick boxes next to the newly added parameters here are ticked as synced.
+7. In AV3Manager, switch to the Parameters tab and copy parameter values from 'CigParameters' to your existing Parameters.
+8. In your main menu, create a new sub-menu pointing to 'CigMenu'
+
+9. Test the system with Lyuma's AV3.0 Emulator.
+
+
+All should work well, but there may be some slight issues with the ring holder animation.
+To fix these:
+1. Select your avatar and temporarily change the animator controller to 'Cigarette'
+2. In the Animation window, select the CigRingHolder animation and begin recording.
+3. Reposition CigaretteWithHolder to the desired location.
+4. Repeat steps 2-3 with the CigRingHolderSmokingActive animation.
+5. Repeat step 1, this time returning the animator controller to it's original controller.
+
+6. Test the system with Lyuma's AV3.0 Emulator.
+
+Finally, prior to uploading the avatar, disable the CigaretteWithHolder object (making sure to leave Cigarette Container enabled).
+
+-----------------------------------------------
+
+If you desire the Active Smoking mode to automatically loop, rather than require manual reset:
+• Go to Assets/GarnCigarette/Prefabs/1-Handed Full System/Anims and turn on "Loop Time" on all that have it disabled.

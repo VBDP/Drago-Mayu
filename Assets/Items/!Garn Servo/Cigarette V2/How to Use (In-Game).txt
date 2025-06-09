@@ -1,0 +1,10 @@
+Once toggled on, you can select what cigarette type you want (and where it goes (Full System Only); only exception is the ring holder cannot go in the mouth).
+
+If you have gesture control enabled, the victory (peace) gesture will put it in either hand, and neither will go to your mouth. (Full System Only)
+
+Active Smoking will slowly burn the cigarette down over the course of 5 minutes until it has burnt out. If you are using the Full System, the steps below can reveal another feature.
+
+To be able to throw the cigarette butt once it has burnt out, you must be using cigarette only (holders will not work). (Full System Only)
+- If it is in either hand, going to an open hand gesture will throw it, and going back to victory (peace) with the same hand will spawn a new cigarette. You do NOT need gesture control on for this work.
+- If it is in your mouth, you can do an open hand gesture with both hands to spit it out, and victory (peace) with both hands to spawn a new cigarette in your mouth. You do NOT need gesture control on for this work.
+- If you do not do the victory (peace) after throwing the cigarette butt, you can also toggle the system on and off to respawn it.

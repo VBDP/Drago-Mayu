@@ -310,7 +310,7 @@ PrefabInstance:
     - target: {fileID: 4200810879530129700, guid: 64c1e995db896db4e954090799b89717,
         type: 3}
       propertyPath: fallbackStatus
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5286994834754841788, guid: 64c1e995db896db4e954090799b89717,
         type: 3}
@@ -643,12 +643,17 @@ PrefabInstance:
       value: Cheese Hold Inactive
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 96246043680376055, guid: 64c1e995db896db4e954090799b89717, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6373767562415085061, guid: 64c1e995db896db4e954090799b89717,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2045743816}
+    - targetCorrespondingSourceObject: {fileID: 6373767562415085061, guid: 64c1e995db896db4e954090799b89717,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1795868492}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5998789723980090559, guid: 64c1e995db896db4e954090799b89717,
         type: 3}
@@ -724,6 +729,80 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1795868491
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1004161099}
+    m_Modifications:
+    - target: {fileID: 1227330909385755637, guid: c901be5fd0387e04a86ff8d3496cfbcc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.906
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755637, guid: c901be5fd0387e04a86ff8d3496cfbcc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755637, guid: c901be5fd0387e04a86ff8d3496cfbcc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755637, guid: c901be5fd0387e04a86ff8d3496cfbcc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755637, guid: c901be5fd0387e04a86ff8d3496cfbcc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755637, guid: c901be5fd0387e04a86ff8d3496cfbcc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755637, guid: c901be5fd0387e04a86ff8d3496cfbcc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755637, guid: c901be5fd0387e04a86ff8d3496cfbcc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755637, guid: c901be5fd0387e04a86ff8d3496cfbcc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755637, guid: c901be5fd0387e04a86ff8d3496cfbcc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755638, guid: c901be5fd0387e04a86ff8d3496cfbcc,
+        type: 3}
+      propertyPath: m_Name
+      value: GogoLoco Beyond (VRCFury)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c901be5fd0387e04a86ff8d3496cfbcc, type: 3}
+--- !u!4 &1795868492 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1227330909385755637, guid: c901be5fd0387e04a86ff8d3496cfbcc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1795868491}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2045743815
 PrefabInstance:
   m_ObjectHideFlags: 0

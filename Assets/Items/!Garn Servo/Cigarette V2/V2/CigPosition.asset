@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: CigPosition
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: Right Hand
+    icon: {fileID: 2800000, guid: 33928ec95a59f2c4a9aaf354ff62de0c, type: 3}
+    type: 102
+    parameter:
+      name: Cig/Pos/RH
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Mouth
+    icon: {fileID: 2800000, guid: cc29193b663423548879cfe13e63937f, type: 3}
+    type: 102
+    parameter:
+      name: Cig/Pos/Mouth
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Left Hand
+    icon: {fileID: 2800000, guid: 3925d393c13a29a4ab58f59caf97ee36, type: 3}
+    type: 102
+    parameter:
+      name: Cig/Pos/LH
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
